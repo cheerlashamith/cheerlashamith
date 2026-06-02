@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="./assets/hero-banner.svg" alt="Cheerla Shamith Hero Banner" width="100%" />
+  <img src="./hero-banner.svg" alt="Cheerla Shamith Hero Banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/scramble-name.svg" alt="Scramble Intro" width="86%" />
+  <img src="./scramble-name.svg" alt="Scramble Intro" width="86%" />
 </p>
 
 <p align="center">
-  <img src="./assets/typewriter.svg" alt="Animated Typewriter" width="86%" />
+  <img src="./typewriter.svg" alt="Animated Typewriter" width="86%" />
 </p>
 
 <h1 align="center">💫 Cheerla Shamith</h1>
@@ -70,7 +70,7 @@ into real-world applications that solve meaningful problems.
 </table>
 
 <p align="center">
-  <img src="./assets/divider-wave.svg" alt="divider" width="100%" />
+  <img src="./divider-wave.svg" alt="divider" width="100%" />
 </p>
 
 ## ✨ Developer Snapshot
@@ -102,7 +102,7 @@ mindset: "Build useful things. Build them well. Make them unforgettable."
 
 
 <p align="center">
-  <img src="./assets/code-terminal.svg" alt="Creative Terminal Vector" width="92%" />
+  <img src="./code-terminal.svg" alt="Creative Terminal Vector" width="92%" />
 </p>
 
 ## 🧠 What I Love Building
@@ -174,7 +174,7 @@ mindset: "Build useful things. Build them well. Make them unforgettable."
 - Scalable Backend Architecture
 
 <p align="center">
-  <img src="./assets/ai-orbit.svg" alt="AI Orbit Vector" width="82%" />
+  <img src="./ai-orbit.svg" alt="AI Orbit Vector" width="82%" />
 </p>
 
 ---
@@ -416,7 +416,7 @@ That foundation helps me build better products because I approach software with 
 
 
 <p align="center">
-  <img src="./assets/footer-glow.svg" alt="footer" width="100%" />
+  <img src="./footer-glow.svg" alt="footer" width="100%" />
 </p>
 
 <p align="center">
