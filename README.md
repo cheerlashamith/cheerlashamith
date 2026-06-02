@@ -100,19 +100,6 @@ currently_building:
 mindset: "Build useful things. Build them well. Make them unforgettable."
 ```
 
-## 🎨 Why This README Feels More Premium
-
-This version is upgraded with:
-- ✅ **Animated SVG vector banners**
-- ✅ **Scramble-style intro effect**
-- ✅ **Typewriter animation effect**
-- ✅ **Professional section spacing and layout**
-- ✅ **Stronger visual hierarchy**
-- ✅ **Cleaner social links and badges**
-- ✅ **Creative portfolio-style presentation**
-- ✅ **Local vector assets for a more unique identity**
-
-> **Note:** GitHub README files do **not support JavaScript**, so true JS-based animations like advanced scramble logic, particle systems, or runtime DOM effects will not run directly inside a README. To keep everything GitHub-compatible, this version uses **animated SVGs**, **badges**, and **layout tricks** that still look dynamic and professional.
 
 <p align="center">
   <img src="./assets/code-terminal.svg" alt="Creative Terminal Vector" width="92%" />
@@ -427,30 +414,6 @@ That foundation helps me build better products because I approach software with 
   <a href="https://www.youtube.com/@nxtgengamer786"><img src="https://img.shields.io/badge/YouTube-@nxtgengamer786-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
 </p>
 
----
-
-## 📍 Quick Copy Version
-
-If you want a shorter summary for profiles, bios, or portfolio intros:
-
-> Hi, I'm **Cheerla Shamith**, a Full-Stack Developer, Generative AI Engineer, and Competitive Programmer from India. I build scalable web applications, AI-powered systems, and automation-driven products. I'm currently pursuing B.Tech in CSE at SASI Institute of Technology & Engineering with a CGPA of 9.38+, and I enjoy transforming ambitious ideas into polished real-world solutions.
-
----
-
-## 🔥 Optional Next-Level Additions You Can Ask Me For
-
-If you want, I can also generate these for you next:
-
-- ✅ **Ultra-premium dark theme README v2**
-- ✅ **Even more animated SVG sections**
-- ✅ **Custom snake contribution workflow**
-- ✅ **Matching portfolio website homepage**
-- ✅ **Glassmorphism README theme**
-- ✅ **Red-black hacker theme version**
-- ✅ **Blue-purple futuristic theme version**
-- ✅ **Minimal elite recruiter-friendly version**
-
----
 
 <p align="center">
   <img src="./assets/footer-glow.svg" alt="footer" width="100%" />
