@@ -1,27 +1,461 @@
-# 💫 About Me:
-## 🚀 About Me<br><br>Hi, I'm **Cheerla Shamith**, a Full-Stack Developer, Generative AI Engineer, and Competitive Programmer from India.<br><br>🎓 Pursuing B.Tech in Computer Science & Engineering at SASI Institute of Technology & Engineering with a CGPA of 9.38+.<br><br>💡 I enjoy building scalable web applications, AI-powered platforms, automation systems, and solving real-world problems using technology.<br><br>🔭 I’m currently working on<br><br>* MeetMinds — Offline AI Meeting Intelligence Platform<br>* AI Agents, Workflow Automation & Prompt Engineering Research<br>* Full-Stack MERN Applications with Generative AI integrations<br><br>👯 I’m looking to collaborate on<br><br>* Open Source Projects<br>* AI/ML Applications<br>* Full-Stack Web Development<br>* Developer Tools & Productivity Platforms<br><br>🤝 I’m looking for help with<br><br>* Advanced System Design<br>* Large Scale AI Systems<br>* Open Source Contributions<br>* Cloud Infrastructure & DevOps<br><br>🌱 I’m currently learning<br><br>* AI Agents & Multi-Agent Systems<br>* Advanced Generative AI<br>* Docker & Cloud Deployments<br>* Scalable Backend Architecture<br><br>💬 Ask me about<br><br>* React.js<br>* Node.js & Express.js<br>* MongoDB<br>* Python<br>* Generative AI<br>* REST APIs<br>* Competitive Programming<br>* Full-Stack Development<br><br>⚡ Fun fact<br><br>* Solved 2000+ coding problems across competitive programming platforms and love turning ambitious ideas into working products.<br>
+<p align="center">
+  <img src="./assets/hero-banner.svg" alt="Cheerla Shamith Hero Banner" width="100%" />
+</p>
 
+<p align="center">
+  <img src="./assets/scramble-name.svg" alt="Scramble Intro" width="86%" />
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/starshami888/?igsh=dmlrNHE4dGk1Njln#) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/cheerla-shamith-a420472a0/) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@nxtgengamer786) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@Cheerla Shamith) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:chshamith888@gmail.com) 
+<p align="center">
+  <img src="./assets/typewriter.svg" alt="Animated Typewriter" width="86%" />
+</p>
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=cheerlashamith&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=cheerlashamith&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=cheerlashamith&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<h1 align="center">💫 Cheerla Shamith</h1>
+<h3 align="center">Full-Stack Developer • Generative AI Engineer • Competitive Programmer • Builder from India</h3>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=cheerlashamith&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+<p align="center">
+  <a href="mailto:chshamith888@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/cheerla-shamith-a420472a0/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/starshami888/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.youtube.com/@nxtgengamer786"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+  <a href="https://github.com/cheerlashamith"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=cheerlashamith&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=cheerlashamith&style=for-the-badge&color=0ea5e9" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/CGPA-9.38%2B-8b5cf6?style=for-the-badge" alt="CGPA" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-2000%2B-22c55e?style=for-the-badge" alt="Problems Solved" />
+  <img src="https://img.shields.io/badge/Open%20to-Collaboration-f59e0b?style=for-the-badge" alt="Open to Collaboration" />
+</p>
 
 ---
-[![](https://komarev.com/ghpvc/?username=cheerlashamith&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🚀 About Me
+
+Hi, I'm **Cheerla Shamith** — a passionate **Full-Stack Developer**, **Generative AI Engineer**, and **Competitive Programmer** who loves building products that are scalable, useful, modern, and visually polished.
+
+I enjoy combining:
+- robust engineering,
+- creative product thinking,
+- elegant UI/UX,
+- backend architecture,
+- and AI-powered workflows
+
+into real-world applications that solve meaningful problems.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌟 Core Identity
+- 🎓 Pursuing **B.Tech in Computer Science & Engineering** at **SASI Institute of Technology & Engineering**
+- 📈 Maintaining a **CGPA of 9.38+**
+- 🧠 Strong interest in **system design**, **AI systems**, and **scalable backend architecture**
+- 🛠️ Building modern **MERN**, **AI**, and **automation-first** products
+- ⚡ Solved **2000+ coding problems** across competitive programming platforms
+- 🎯 Focused on turning ambitious ideas into polished products
+
+</td>
+<td width="50%" valign="top">
+
+### 🧭 Current Direction
+- 🔭 Building **MeetMinds — Offline AI Meeting Intelligence Platform**
+- 🤖 Exploring **AI Agents**, **workflow automation**, and **prompt engineering research**
+- 🌱 Learning **advanced generative AI**, **Docker**, **cloud deployments**, and **scalable backend patterns**
+- 🤝 Looking to collaborate on **Open Source**, **AI/ML apps**, **Developer Tools**, and **Full-Stack products**
+- 💬 Ask me about **React.js**, **Node.js**, **Express.js**, **MongoDB**, **Python**, **REST APIs**, **Generative AI**, and **Competitive Programming**
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="./assets/divider-wave.svg" alt="divider" width="100%" />
+</p>
+
+## ✨ Developer Snapshot
+
+```yaml
+name: Cheerla Shamith
+location: India
+roles:
+  - Full-Stack Developer
+  - Generative AI Engineer
+  - Competitive Programmer
+focus:
+  - Scalable Web Applications
+  - AI-Powered Platforms
+  - Automation Systems
+  - Developer Productivity Tools
+strengths:
+  - Problem Solving
+  - Product Thinking
+  - Rapid Prototyping
+  - Clean Implementation
+  - Modern UI Composition
+currently_building:
+  - MeetMinds
+  - AI Agent Workflows
+  - MERN + GenAI Integrations
+mindset: "Build useful things. Build them well. Make them unforgettable."
+```
+
+## 🎨 Why This README Feels More Premium
+
+This version is upgraded with:
+- ✅ **Animated SVG vector banners**
+- ✅ **Scramble-style intro effect**
+- ✅ **Typewriter animation effect**
+- ✅ **Professional section spacing and layout**
+- ✅ **Stronger visual hierarchy**
+- ✅ **Cleaner social links and badges**
+- ✅ **Creative portfolio-style presentation**
+- ✅ **Local vector assets for a more unique identity**
+
+> **Note:** GitHub README files do **not support JavaScript**, so true JS-based animations like advanced scramble logic, particle systems, or runtime DOM effects will not run directly inside a README. To keep everything GitHub-compatible, this version uses **animated SVGs**, **badges**, and **layout tricks** that still look dynamic and professional.
+
+<p align="center">
+  <img src="./assets/code-terminal.svg" alt="Creative Terminal Vector" width="92%" />
+</p>
+
+## 🧠 What I Love Building
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🌐 Full-Stack Products
+- MERN applications
+- dashboards
+- admin panels
+- authentication systems
+- REST API ecosystems
+- real-world SaaS workflows
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 AI-Driven Systems
+- AI agent orchestration
+- prompt pipelines
+- retrieval workflows
+- automation tools
+- intelligent assistants
+- content and decision systems
+
+</td>
+<td width="33%" valign="top">
+
+### ⚙️ Engineering Systems
+- scalable backends
+- modular architecture
+- cloud-ready services
+- clean API design
+- data-driven products
+- developer productivity tools
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚧 Current Focus Areas
+
+### 🔭 Currently Working On
+- **MeetMinds** — Offline AI Meeting Intelligence Platform
+- **AI Agents & Workflow Automation**
+- **Prompt Engineering Research**
+- **Full-Stack MERN Applications with GenAI Integrations**
+
+### 👯 Looking to Collaborate On
+- Open Source Projects
+- AI/ML Applications
+- Full-Stack Web Development
+- Developer Tools & Productivity Platforms
+
+### 🤝 Looking for Help With
+- Advanced System Design
+- Large-Scale AI Systems
+- Open Source Contributions
+- Cloud Infrastructure & DevOps
+
+### 🌱 Currently Learning
+- AI Agents & Multi-Agent Systems
+- Advanced Generative AI
+- Docker & Cloud Deployments
+- Scalable Backend Architecture
+
+<p align="center">
+  <img src="./assets/ai-orbit.svg" alt="AI Orbit Vector" width="82%" />
+</p>
+
+---
+
+## 🛠️ Tech Arsenal
+
+<details open>
+<summary><b>💻 Languages</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
+</p>
+</details>
+
+<details open>
+<summary><b>🎨 Frontend & UI</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
+</p>
+</details>
+
+<details open>
+<summary><b>🧩 Backend & APIs</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB" alt="Express.js" />
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/REST%20APIs-0F172A?style=for-the-badge&logo=fastapi&logoColor=22d3ee" alt="REST APIs" />
+</p>
+</details>
+
+<details open>
+<summary><b>🗄️ Databases & BaaS</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+</p>
+</details>
+
+<details open>
+<summary><b>☁️ Cloud, DevOps & Platforms</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
+  <img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Netlify-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Netlify" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
+</details>
+
+<details open>
+<summary><b>🧠 AI / ML / Data</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit Learn" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=plotly&logoColor=black" alt="Matplotlib" />
+</p>
+</details>
+
+<details open>
+<summary><b>🧰 Tools & Workflow</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/FFmpeg-171717?style=for-the-badge&logo=ffmpeg&logoColor=5cb85c" alt="FFmpeg" />
+  <img src="https://img.shields.io/badge/Windows_Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal" />
+  <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" />
+</p>
+</details>
+
+---
+
+## 🏗️ Engineering Mindset
+
+I like building software that is:
+
+- **clean in structure**
+- **practical in purpose**
+- **fast in execution**
+- **scalable by design**
+- **pleasant to use**
+- **easy to extend**
+
+### My preferred process
+1. Understand the real problem deeply.
+2. Design the simplest reliable architecture.
+3. Build a strong functional version quickly.
+4. Refine UI, developer experience, and edge cases.
+5. Optimize for maintainability and scale.
+
+---
+
+## 📌 Featured Work & Areas of Interest
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 MeetMinds
+**Offline AI Meeting Intelligence Platform**
+
+A product idea focused on extracting value from conversations by combining AI, structured workflows, and product-thinking.
+
+**Possible capability areas:**
+- meeting transcription workflows
+- summarization pipelines
+- action-item extraction
+- team productivity insights
+- offline or privacy-aware intelligence systems
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 AI Agents & Automation
+A research and experimentation track centered around:
+- multi-agent flows
+- prompt chaining
+- workflow automation
+- retrieval-augmented intelligence
+- practical AI tool building
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 MERN + GenAI Applications
+I enjoy creating products that merge:
+- modern frontend experiences
+- powerful backend systems
+- database-driven workflows
+- AI-powered assistance
+- scalable API design
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 Developer Productivity Tools
+I'm interested in tools that help developers:
+- automate repetitive work
+- build faster
+- debug smarter
+- manage workflows better
+- ship polished products quickly
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏆 Achievements & Highlights
+
+- 🎯 Solved **2000+ coding problems** across competitive programming platforms
+- 📚 Strong foundation in **data structures and algorithms**
+- 🧠 Comfortable moving between **frontend**, **backend**, and **AI workflow** development
+- 🚀 Passionate about creating **real products**, not just isolated demos
+- ✨ Interested in combining **technical depth** with **design quality**
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=cheerlashamith&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cheerlashamith&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cheerlashamith&theme=tokyonight&hide_border=true&layout=compact&langs_count=10" alt="Top Languages" width="42%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=cheerlashamith&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12" alt="GitHub Trophies" width="56%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cheerlashamith&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="98%" />
+</p>
+
+---
+
+## 💻 Competitive Programming Spirit
+
+Competitive programming strengthened my:
+- problem-solving speed
+- algorithmic thinking
+- debugging discipline
+- optimization mindset
+- confidence with constraints and edge cases
+
+That foundation helps me build better products because I approach software with both:
+- **engineering clarity**, and
+- **performance awareness**.
+
+---
+
+## ✍️ Personal Philosophy
+
+> Build things that matter.  
+> Make them elegant.  
+> Make them useful.  
+> Keep learning fast.  
+> Keep shipping faster.
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="mailto:chshamith888@gmail.com"><img src="https://img.shields.io/badge/Gmail-chshamith888%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/cheerla-shamith-a420472a0/"><img src="https://img.shields.io/badge/LinkedIn-Cheerla%20Shamith-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/starshami888/"><img src="https://img.shields.io/badge/Instagram-@starshami888-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.youtube.com/@nxtgengamer786"><img src="https://img.shields.io/badge/YouTube-@nxtgengamer786-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+</p>
+
+---
+
+## 📍 Quick Copy Version
+
+If you want a shorter summary for profiles, bios, or portfolio intros:
+
+> Hi, I'm **Cheerla Shamith**, a Full-Stack Developer, Generative AI Engineer, and Competitive Programmer from India. I build scalable web applications, AI-powered systems, and automation-driven products. I'm currently pursuing B.Tech in CSE at SASI Institute of Technology & Engineering with a CGPA of 9.38+, and I enjoy transforming ambitious ideas into polished real-world solutions.
+
+---
+
+## 🔥 Optional Next-Level Additions You Can Ask Me For
+
+If you want, I can also generate these for you next:
+
+- ✅ **Ultra-premium dark theme README v2**
+- ✅ **Even more animated SVG sections**
+- ✅ **Custom snake contribution workflow**
+- ✅ **Matching portfolio website homepage**
+- ✅ **Glassmorphism README theme**
+- ✅ **Red-black hacker theme version**
+- ✅ **Blue-purple futuristic theme version**
+- ✅ **Minimal elite recruiter-friendly version**
+
+---
+
+<p align="center">
+  <img src="./assets/footer-glow.svg" alt="footer" width="100%" />
+</p>
+
+<p align="center">
+  <b>⭐ If you like this profile design, feel free to star the repositories and connect with me.</b>
+</p>
