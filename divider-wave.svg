@@ -1,0 +1,17 @@
+<svg width="1600" height="160" viewBox="0 0 1600 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="160" fill="#050816"/>
+  <path d="M0 95C96 74 168 54 264 60C360 66 432 110 528 116C624 122 696 90 792 80C888 70 960 82 1056 96C1152 110 1224 126 1320 122C1416 118 1488 94 1600 68V160H0V95Z" fill="url(#wave)" fill-opacity="0.18"/>
+  <path d="M0 72C96 96 168 118 264 110C360 102 432 64 528 58C624 52 696 78 792 90C888 102 960 100 1056 82C1152 64 1224 30 1320 34C1416 38 1488 80 1600 110" stroke="url(#wave)" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0 72C96 96 168 118 264 110C360 102 432 64 528 58C624 52 696 78 792 90C888 102 960 100 1056 82C1152 64 1224 30 1320 34C1416 38 1488 80 1600 110;
+              M0 98C96 76 168 42 264 50C360 58 432 108 528 116C624 124 696 102 792 88C888 74 960 70 1056 84C1152 98 1224 126 1320 120C1416 114 1488 90 1600 66;
+              M0 72C96 96 168 118 264 110C360 102 432 64 528 58C624 52 696 78 792 90C888 102 960 100 1056 82C1152 64 1224 30 1320 34C1416 38 1488 80 1600 110"/>
+  </path>
+</svg>
