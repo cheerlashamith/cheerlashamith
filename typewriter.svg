@@ -14,8 +14,8 @@
   <rect width="1200" height="170" rx="24" fill="#0A0F20"/>
   <rect x="1" y="1" width="1198" height="168" rx="23" stroke="#67E8F9" stroke-opacity="0.18"/>
   <g transform="translate(54 34)" font-family="'Fira Code', monospace" font-size="34">
-    <text x="0" y="38" fill="#E2E8F0" clip-path="url(#revealOne)">Building scalable web apps • AI systems • developer tools</text>
-    <text x="0" y="116" fill="#F9A8D4" clip-path="url(#revealTwo)">Transforming ideas into products with code, design, and automation</text>
+    <text x="0" y="38" fill="#E2E8F0" clip-path="url(#revealOne)">Building scalable web apps • AI systems </text>
+    <text x="0" y="116" fill="#F9A8D4" clip-path="url(#revealTwo)">Transforming ideas into products </text>
     <rect x="0" y="10" width="4" height="40" fill="#67E8F9">
       <animate attributeName="x" values="0;820;820;0;0;0" keyTimes="0;0.25;0.38;0.5;0.75;1" dur="12s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;0;0;1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
