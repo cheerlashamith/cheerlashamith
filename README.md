@@ -33,15 +33,15 @@
 </p>
 
 <p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=cheerlashamith&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="49%" /> 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cheerlashamith&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" /> 
+  <img src="https://github-readme-stats.vercel.app/api?username=cheerlashamith&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" width="49%" /> 
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cheerlashamith&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="GitHub Streak" width="49%" /> 
 </p> 
 <p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cheerlashamith&theme=tokyonight&hide_border=true&layout=compact&langs_count=10" alt="Top Languages" width="42%" /> 
-  <img src="https://github-profile-trophy.vercel.app/?username=cheerlashamith&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12" alt="GitHub Trophies" width="56%" /> 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cheerlashamith&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&cache_seconds=86400" alt="Top Languages" width="42%" /> 
+  <img src="https://github-profile-trophy.vercel.app/?username=cheerlashamith&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=4" alt="GitHub Trophies" width="56%" /> 
 </p> 
 <p align="center"> 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cheerlashamith&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="98%" /> 
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cheerlashamith&theme=tokyo-night&hide_border=true&area=true&cache_seconds=86400" alt="Contribution Graph" width="98%" /> 
 </p> 
 
 <p align="center">
@@ -64,6 +64,7 @@ into real-world applications that solve meaningful problems.
 <table> 
 <tr> 
 <td width="50%" valign="top"> 
+
 ### 🌟 Core Identity 
 - 🎓 Pursuing B.Tech in Computer Science & Engineering at SASI Institute of Technology & Engineering 
 - 📈 Maintaining a CGPA of 9.38+ 
@@ -73,6 +74,7 @@ into real-world applications that solve meaningful problems.
 - 🎯 Focused on turning ambitious ideas into polished products 
 </td> 
 <td width="50%" valign="top"> 
+
 ### 🧭 Current Direction 
 - 🔭 Building MeetMinds — Offline AI Meeting Intelligence Platform 
 - 🤖 Exploring AI Agents, workflow automation, and prompt engineering research 
@@ -120,6 +122,7 @@ mindset: "Build useful things. Build them well. Make them unforgettable."
 <table> 
 <tr> 
 <td width="33%" valign="top"> 
+
 ### 🌐 Full-Stack Products 
 - MERN applications 
 - dashboards 
@@ -129,6 +132,7 @@ mindset: "Build useful things. Build them well. Make them unforgettable."
 - real-world SaaS workflows 
 </td> 
 <td width="33%" valign="top"> 
+
 ### 🤖 AI-Driven Systems 
 - AI agent orchestration 
 - prompt pipelines 
@@ -138,6 +142,7 @@ mindset: "Build useful things. Build them well. Make them unforgettable."
 - content and decision systems 
 </td> 
 <td width="33%" valign="top"> 
+
 ### ⚙️ Engineering Systems 
 - scalable backends 
 - modular architecture 
@@ -297,6 +302,7 @@ I like building software that is:
 <table> 
 <tr> 
 <td width="50%" valign="top"> 
+
 ### 🧠 MeetMinds 
 Offline AI Meeting Intelligence Platform 
 A product idea focused on extracting value from conversations by combining AI, structured workflows, and product-thinking. 
@@ -308,6 +314,7 @@ Possible capability areas:
 - offline or privacy-aware intelligence systems 
 </td> 
 <td width="50%" valign="top"> 
+
 ### 🤖 AI Agents & Automation 
 A research and experimentation track centered around: 
 - multi-agent flows 
@@ -319,6 +326,7 @@ A research and experimentation track centered around:
 </tr> 
 <tr> 
 <td width="50%" valign="top"> 
+
 ### 🌐 MERN + GenAI Applications 
 I enjoy creating products that merge: 
 - modern frontend experiences 
@@ -328,6 +336,7 @@ I enjoy creating products that merge:
 - scalable API design 
 </td> 
 <td width="50%" valign="top"> 
+
 ### 🧩 Developer Productivity Tools 
 I'm interested in tools that help developers: 
 - automate repetitive work 
