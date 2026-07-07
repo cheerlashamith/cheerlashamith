@@ -33,13 +33,15 @@
 </p>
 
 <p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=cheerlashamith&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" width="49%" /> 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cheerlashamith&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="GitHub Streak" width="49%" /> 
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cheerlashamith&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="GitHub Streak" width="70%" /> 
 </p> 
+
 <p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cheerlashamith&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&cache_seconds=86400" alt="Top Languages" width="42%" /> 
-  <img src="https://github-profile-trophy.vercel.app/?username=cheerlashamith&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=4" alt="GitHub Trophies" width="56%" /> 
+  <img src="https://img.shields.io/badge/Languages-JS%20|%20Python%20|%20Java%20|%20C-0ea5e9?style=for-the-badge&logo=codeforces&logoColor=white" alt="Top Languages" /> 
+  <img src="https://img.shields.io/badge/CodeChef-Diamond%20Badge-8b5cf6?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef Diamond" /> 
+  <img src="https://img.shields.io/badge/Certifications-AWS%20|%20Oracle%20|%20IBM%20|%20Google-22c55e?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Certifications" /> 
 </p> 
+
 <p align="center"> 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=cheerlashamith&theme=tokyo-night&hide_border=true&area=true&cache_seconds=86400" alt="Contribution Graph" width="98%" /> 
 </p> 
