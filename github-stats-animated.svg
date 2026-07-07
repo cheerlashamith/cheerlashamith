@@ -28,11 +28,6 @@
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
 
-    <radialGradient id="flameGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
-    </radialGradient>
-
     <radialGradient id="cornerGlowBlue" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
@@ -86,18 +81,6 @@
         100% { opacity: 1; transform: scale(1); }
       }
 
-      .pulse { animation: pulseScale 2.4s ease-in-out infinite; transform-origin: center; }
-      @keyframes pulseScale {
-        0%, 100% { transform: scale(1); }
-        50%      { transform: scale(1.1); }
-      }
-
-      .glowPulse { animation: glowFade 2.4s ease-in-out infinite; }
-      @keyframes glowFade {
-        0%, 100% { opacity: 0.35; }
-        50%      { opacity: 0.8; }
-      }
-
       .cornerPulse { animation: cornerFade 5s ease-in-out infinite; }
       @keyframes cornerFade {
         0%, 100% { opacity: 0.6; }
@@ -122,12 +105,6 @@
       @keyframes barBounceA { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(0.55); } }
       @keyframes barBounceB { 0%,100% { transform: scaleY(0.7); } 50% { transform: scaleY(1.15); } }
       @keyframes barBounceC { 0%,100% { transform: scaleY(1.1); } 50% { transform: scaleY(0.6); } }
-
-      .ringReveal { stroke-dasharray: 251.2; animation: ringDraw 1.6s ease-out forwards; }
-      @keyframes ringDraw {
-        0%   { stroke-dashoffset: 251.2; }
-        100% { stroke-dashoffset: 63; }
-      }
 
       .sweepBar { animation: sweepMove 3.2s ease-in-out infinite; }
       @keyframes sweepMove {
@@ -200,13 +177,11 @@
       <text x="188" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Mar 22 - Present</text>
     </g>
 
-    <!-- Current Streak (animated ring) -->
-    <g class="fadeUp" style="animation-delay:0.6s">
-      <circle cx="450" cy="190" r="47" fill="url(#flameGlow)" filter="url(#softBlur)" class="glowPulse"/>
-      <text x="450" y="184" text-anchor="middle" font-size="26" class="pulse">🔥</text>
-      <text x="450" y="204" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#e879f9">23</text>
-      <text x="450" y="254" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#e879f9">Current Streak</text>
-      <text x="450" y="272" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Jun 15 - Jul 7</text>
+    <!-- Current Streak -->
+    <g class="popIn" style="animation-delay:0.6s">
+      <text x="450" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#e879f9">23</text>
+      <text x="450" y="226" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Current Streak</text>
+      <text x="450" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Jun 15 - Jul 7</text>
     </g>
 
     <!-- Longest Streak -->
