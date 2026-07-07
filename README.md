@@ -28,18 +28,8 @@
 </p>
 
 ## 📊 GitHub Statistics
-<p align="center">
-  <b>🚀 99 contributions in the last year!</b>
-</p>
-
 <p align="center"> 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cheerlashamith&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="GitHub Streak" width="70%" /> 
-</p> 
-
-<p align="center"> 
-  <img src="https://img.shields.io/badge/Languages-JS%20|%20Python%20|%20Java%20|%20C-0ea5e9?style=for-the-badge&logo=codeforces&logoColor=white" alt="Top Languages" /> 
-  <img src="https://img.shields.io/badge/CodeChef-Diamond%20Badge-8b5cf6?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef Diamond" /> 
-  <img src="https://img.shields.io/badge/Certifications-AWS%20|%20Oracle%20|%20IBM%20|%20Google-22c55e?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Certifications" /> 
+  <img src="./github-stats-animated.svg" alt="Animated GitHub Statistics" width="100%" /> 
 </p> 
 
 <p align="center"> 
