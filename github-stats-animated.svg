@@ -1,55 +1,44 @@
-<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">cheerlashamith GitHub Statistics</title>
+  <desc id="desc">Animated GitHub statistics card showing total contributions, current streak, and longest streak. Auto-updated by GitHub Actions.</desc>
+
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0e1c"/>
       <stop offset="45%" stop-color="#121a35"/>
       <stop offset="100%" stop-color="#1a0f34"/>
     </linearGradient>
-
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="50%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#e879f9"/>
     </linearGradient>
-
-    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#e879f9"/>
-    </linearGradient>
-
     <linearGradient id="iconGrad" x1="0%" y1="100%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
-
     <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
       <stop offset="50%" stop-color="#c084fc" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
-
     <radialGradient id="cornerGlowBlue" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
-
     <radialGradient id="cornerGlowPurple" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#c084fc" stop-opacity="0.30"/>
       <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
     </radialGradient>
-
     <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="7"/>
     </filter>
-
     <filter id="bigBlur" x="-80%" y="-80%" width="260%" height="260%">
       <feGaussianBlur stdDeviation="22"/>
     </filter>
-
     <clipPath id="cardClip">
       <rect x="1" y="1" width="898" height="298" rx="22"/>
     </clipPath>
-
     <style>
       .particle { animation: floatUp 7s linear infinite; }
       .particle:nth-child(1) { animation-delay: 0s; }
@@ -67,45 +56,38 @@
         90%  { opacity: 0.25; }
         100% { transform: translateY(-140px) translateX(-4px); opacity: 0; }
       }
-
       .fadeUp { opacity: 0; animation: fadeUpIn 0.8s ease-out forwards; }
       @keyframes fadeUpIn {
         0%   { opacity: 0; transform: translateY(14px); }
         100% { opacity: 1; transform: translateY(0px); }
       }
-
       .popIn { opacity: 0; animation: popInAnim 0.7s cubic-bezier(.34,1.56,.64,1) forwards; transform-origin: center; }
       @keyframes popInAnim {
         0%   { opacity: 0; transform: scale(0.6); }
         70%  { opacity: 1; transform: scale(1.08); }
         100% { opacity: 1; transform: scale(1); }
       }
-
       .cornerPulse { animation: cornerFade 5s ease-in-out infinite; }
       @keyframes cornerFade {
         0%, 100% { opacity: 0.6; }
         50%      { opacity: 1; }
       }
-
       .titleShimmer { animation: shimmer 4.5s linear infinite; }
       @keyframes shimmer {
         0%   { stroke-dashoffset: 260; }
         100% { stroke-dashoffset: 0; }
       }
-
       .rocket { animation: rocketBob 2.6s ease-in-out infinite; transform-origin: center; }
       @keyframes rocketBob {
         0%, 100% { transform: translateY(0px) rotate(-6deg); }
         50%      { transform: translateY(-4px) rotate(-3deg); }
       }
-
       .barA { animation: barBounceA 1.6s ease-in-out infinite; transform-origin: 44px 62px; }
       .barB { animation: barBounceB 1.6s ease-in-out infinite 0.2s; transform-origin: 52px 62px; }
       .barC { animation: barBounceC 1.6s ease-in-out infinite 0.4s; transform-origin: 60px 62px; }
       @keyframes barBounceA { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(0.55); } }
       @keyframes barBounceB { 0%,100% { transform: scaleY(0.7); } 50% { transform: scaleY(1.15); } }
       @keyframes barBounceC { 0%,100% { transform: scaleY(1.1); } 50% { transform: scaleY(0.6); } }
-
       .sweepBar { animation: sweepMove 3.2s ease-in-out infinite; }
       @keyframes sweepMove {
         0%   { transform: translateX(-120px); opacity: 0; }
@@ -113,23 +95,21 @@
         85%  { opacity: 1; }
         100% { transform: translateX(760px); opacity: 0; }
       }
-
       .borderGlow { animation: borderPulse 3.5s ease-in-out infinite; }
       @keyframes borderPulse {
         0%, 100% { stroke-opacity: 0.5; }
         50%      { stroke-opacity: 1; }
       }
+      text { text-rendering: geometricPrecision; }
     </style>
   </defs>
 
   <g clip-path="url(#cardClip)">
     <rect x="1" y="1" width="898" height="298" rx="22" fill="url(#bgGrad)"/>
 
-    <!-- ambient corner glows -->
     <circle cx="40" cy="10" r="130" fill="url(#cornerGlowBlue)" filter="url(#bigBlur)" class="cornerPulse"/>
     <circle cx="860" cy="290" r="150" fill="url(#cornerGlowPurple)" filter="url(#bigBlur)" class="cornerPulse" style="animation-delay:1.5s"/>
 
-    <!-- floating ambient particles -->
     <circle class="particle" cx="70"  cy="270" r="2.4" fill="#38bdf8"/>
     <circle class="particle" cx="180" cy="280" r="2"   fill="#a78bfa"/>
     <circle class="particle" cx="300" cy="275" r="2.2" fill="#4ade80"/>
@@ -141,60 +121,52 @@
 
     <rect x="1" y="1" width="898" height="298" rx="22" fill="none" stroke="#3a4574" stroke-width="1.4" class="borderGlow"/>
 
-    <!-- header icon: animated equalizer / stats icon -->
     <g class="fadeUp" style="animation-delay:0.05s">
       <rect x="30" y="26" width="42" height="42" rx="12" fill="#161f3d" stroke="#2d3866" stroke-width="1"/>
       <rect class="barA" x="41" y="46" width="6" height="16" rx="2" fill="url(#iconGrad)"/>
       <rect class="barB" x="51" y="38" width="6" height="24" rx="2" fill="url(#iconGrad)"/>
       <rect class="barC" x="61" y="42" width="6" height="20" rx="2" fill="url(#iconGrad)"/>
-
       <text x="88" y="53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f1f5f9">GitHub Statistics</text>
       <line x1="30" y1="80" x2="866" y2="80" stroke="#26304f" stroke-width="1.4"/>
       <line x1="30" y1="80" x2="290" y2="80" stroke="url(#titleGrad)" stroke-width="2.2" stroke-dasharray="260" class="titleShimmer"/>
     </g>
 
-    <!-- subtitle -->
     <g class="fadeUp" style="animation-delay:0.2s">
       <text x="450" y="108" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#e2e8f0">
-        <tspan class="rocket" fill="#fbbf24">🚀</tspan>  244 contributions in the last year!
+        <tspan class="rocket" fill="#fbbf24">🚀</tspan> Run the workflow to load live GitHub stats
       </text>
     </g>
 
-    <!-- inner stats panel (glass card) -->
     <g class="fadeUp" style="animation-delay:0.3s">
       <rect x="55" y="128" width="790" height="150" rx="18" fill="#131a35" stroke="#2c3766" stroke-width="1.2"/>
       <rect x="55" y="128" width="790" height="2" rx="1" fill="url(#titleGrad)" opacity="0.55"/>
     </g>
 
-    <!-- divider lines -->
     <line x1="322" y1="152" x2="322" y2="230" stroke="#2f3a68" stroke-width="1.3" class="fadeUp" style="animation-delay:0.5s"/>
     <line x1="578" y1="152" x2="578" y2="230" stroke="#2f3a68" stroke-width="1.3" class="fadeUp" style="animation-delay:0.5s"/>
 
-    <!-- Total Contributions -->
     <g class="popIn" style="animation-delay:0.45s">
-      <text x="188" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38bdf8">244</text>
+      <text x="188" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38bdf8">0</text>
       <text x="188" y="226" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Total Contributions</text>
-      <text x="188" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Mar 22 - Present</text>
+      <text x="188" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Live data unavailable</text>
     </g>
 
-    <!-- Current Streak -->
     <g class="popIn" style="animation-delay:0.6s">
-      <text x="450" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#e879f9">23</text>
+      <text x="450" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#e879f9">0</text>
       <text x="450" y="226" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Current Streak</text>
-      <text x="450" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Jun 15 - Jul 7</text>
+      <text x="450" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">No contributions yet</text>
     </g>
 
-    <!-- Longest Streak -->
     <g class="popIn" style="animation-delay:0.75s">
-      <text x="712" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38bdf8">23</text>
+      <text x="712" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38bdf8">0</text>
       <text x="712" y="226" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Longest Streak</text>
-      <text x="712" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Jun 15 - Jul 7</text>
+      <text x="712" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">No contributions yet</text>
     </g>
 
-    <!-- bottom accent sweep bar (replaces old badge pills) -->
     <g class="fadeUp" style="animation-delay:0.95s">
       <rect x="55" y="286" width="790" height="2.5" rx="1.2" fill="#232d52"/>
       <rect class="sweepBar" x="0" y="284" width="120" height="6" rx="3" fill="url(#sweepGrad)"/>
+      <text x="845" y="274" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" fill="#94a3b8">Jul 10 • Missing GITHUB_TOKEN</text>
     </g>
   </g>
 </svg>
