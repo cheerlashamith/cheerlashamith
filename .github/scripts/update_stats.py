@@ -66,6 +66,9 @@ def calculate_streaks(calendar):
             count = day['contributionCount']
             date = day['date']
             
+            if date > today:
+                continue
+
             if count > 0:
                 if current_streak == 0:
                     temp_streak_start = date
