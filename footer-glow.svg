@@ -1,19 +1,29 @@
 <svg width="1600" height="220" viewBox="0 0 1600 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" y1="110" x2="1600" y2="110" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#F472B6"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap');
+    </style>
+    <linearGradient id="footerGrad" x1="0" y1="110" x2="1600" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4500"/>
+      <stop offset="0.35" stop-color="#FF8C00"/>
+      <stop offset="0.65" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#FF4500"/>
     </linearGradient>
-    <filter id="b"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glowBlur">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
   </defs>
   <rect width="1600" height="220" fill="#050816"/>
-  <g opacity="0.9">
-    <ellipse cx="800" cy="112" rx="430" ry="26" fill="url(#g)" filter="url(#b)"/>
-    <path d="M180 112H1420" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="800" cy="112" r="10" fill="#FFFFFF"/>
-    <circle cx="800" cy="112" r="24" fill="#FFFFFF" fill-opacity="0.2"/>
+  <g opacity="0.95">
+    <ellipse cx="800" cy="112" rx="460" ry="24" fill="url(#footerGrad)" filter="url(#glowBlur)"/>
+    <path d="M160 112H1440" stroke="url(#footerGrad)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="800" cy="112" r="10" fill="#FFD700"/>
+    <circle cx="800" cy="112" r="24" fill="#FF8C00" fill-opacity="0.25"/>
   </g>
-  <text x="800" y="60" text-anchor="middle" fill="#E2E8F0" font-size="26" font-family="Inter, Arial, sans-serif">Thanks for visiting — let's build something exceptional.</text>
-  <text x="800" y="182" text-anchor="middle" fill="#94A3B8" font-size="18" font-family="Inter, Arial, sans-serif">README crafted with animated SVG vectors and a modern developer aesthetic</text>
+  <text x="800" y="64" text-anchor="middle" fill="#F5E8D0" font-size="24" font-family="'Libre Baskerville', Georgia, serif" font-weight="700">
+    Thanks for visiting — let's build something exceptional together.
+  </text>
+  <text x="800" y="178" text-anchor="middle" fill="#9EB3D8" font-size="15" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">
+    Full-Stack Developer • Generative AI Engineer • Builder from India 🇮🇳
+  </text>
 </svg>

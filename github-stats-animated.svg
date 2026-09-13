@@ -3,91 +3,30 @@
   <desc id="desc">Animated GitHub statistics card showing total contributions, current streak, and longest streak. Auto-updated by GitHub Actions.</desc>
 
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e1c"/>
-      <stop offset="45%" stop-color="#121a35"/>
-      <stop offset="100%" stop-color="#1a0f34"/>
-    </linearGradient>
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#e879f9"/>
-    </linearGradient>
-    <linearGradient id="iconGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#c084fc"/>
-    </linearGradient>
-    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="cornerGlowBlue" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="cornerGlowPurple" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
-    <filter id="bigBlur" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="22"/>
-    </filter>
-    <clipPath id="cardClip">
-      <rect x="1" y="1" width="898" height="298" rx="22"/>
-    </clipPath>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&amp;family=Fira+Code:wght@600;700;800&amp;display=swap');
       .particle { animation: floatUp 7s linear infinite; }
       .particle:nth-child(1) { animation-delay: 0s; }
-      .particle:nth-child(2) { animation-delay: 1s; }
-      .particle:nth-child(3) { animation-delay: 2s; }
-      .particle:nth-child(4) { animation-delay: 3s; }
-      .particle:nth-child(5) { animation-delay: 4s; }
-      .particle:nth-child(6) { animation-delay: 5s; }
-      .particle:nth-child(7) { animation-delay: 6s; }
-      .particle:nth-child(8) { animation-delay: 2.5s; }
+      .particle:nth-child(2) { animation-delay: 1.2s; }
+      .particle:nth-child(3) { animation-delay: 2.4s; }
+      .particle:nth-child(4) { animation-delay: 3.6s; }
+      .particle:nth-child(5) { animation-delay: 4.8s; }
       @keyframes floatUp {
-        0%   { transform: translateY(0px) translateX(0px); opacity: 0; }
-        10%  { opacity: 0.6; }
-        50%  { transform: translateY(-70px) translateX(6px); }
-        90%  { opacity: 0.25; }
-        100% { transform: translateY(-140px) translateX(-4px); opacity: 0; }
+        0%   { transform: translateY(0px); opacity: 0; }
+        15%  { opacity: 0.7; }
+        85%  { opacity: 0.3; }
+        100% { transform: translateY(-120px); opacity: 0; }
       }
-      .fadeUp { opacity: 0; animation: fadeUpIn 0.8s ease-out forwards; }
-      @keyframes fadeUpIn {
-        0%   { opacity: 0; transform: translateY(14px); }
-        100% { opacity: 1; transform: translateY(0px); }
+      .streakGlow { animation: streakPulse 2.5s ease-in-out infinite; }
+      @keyframes streakPulse {
+        0%, 100% { stroke-opacity: 0.6; filter: drop-shadow(0 0 8px rgba(255, 140, 0, 0.4)); }
+        50%      { stroke-opacity: 1;   filter: drop-shadow(0 0 16px rgba(255, 215, 0, 0.75)); }
       }
-      .popIn { opacity: 0; animation: popInAnim 0.7s cubic-bezier(.34,1.56,.64,1) forwards; transform-origin: center; }
-      @keyframes popInAnim {
-        0%   { opacity: 0; transform: scale(0.6); }
-        70%  { opacity: 1; transform: scale(1.08); }
-        100% { opacity: 1; transform: scale(1); }
-      }
-      .cornerPulse { animation: cornerFade 5s ease-in-out infinite; }
-      @keyframes cornerFade {
-        0%, 100% { opacity: 0.6; }
-        50%      { opacity: 1; }
-      }
-      .titleShimmer { animation: shimmer 4.5s linear infinite; }
-      @keyframes shimmer {
-        0%   { stroke-dashoffset: 260; }
-        100% { stroke-dashoffset: 0; }
-      }
-      .rocket { animation: rocketBob 2.6s ease-in-out infinite; transform-origin: center; }
+      .rocket { animation: rocketBob 2.6s ease-in-out infinite; transform-origin: center; display: inline-block; }
       @keyframes rocketBob {
         0%, 100% { transform: translateY(0px) rotate(-6deg); }
         50%      { transform: translateY(-4px) rotate(-3deg); }
       }
-      .barA { animation: barBounceA 1.6s ease-in-out infinite; transform-origin: 44px 62px; }
-      .barB { animation: barBounceB 1.6s ease-in-out infinite 0.2s; transform-origin: 52px 62px; }
-      .barC { animation: barBounceC 1.6s ease-in-out infinite 0.4s; transform-origin: 60px 62px; }
-      @keyframes barBounceA { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(0.55); } }
-      @keyframes barBounceB { 0%,100% { transform: scaleY(0.7); } 50% { transform: scaleY(1.15); } }
-      @keyframes barBounceC { 0%,100% { transform: scaleY(1.1); } 50% { transform: scaleY(0.6); } }
       .sweepBar { animation: sweepMove 3.2s ease-in-out infinite; }
       @keyframes sweepMove {
         0%   { transform: translateX(-120px); opacity: 0; }
@@ -95,77 +34,175 @@
         85%  { opacity: 1; }
         100% { transform: translateX(760px); opacity: 0; }
       }
-      .borderGlow { animation: borderPulse 3.5s ease-in-out infinite; }
-      @keyframes borderPulse {
-        0%, 100% { stroke-opacity: 0.5; }
-        50%      { stroke-opacity: 1; }
-      }
-      text { text-rendering: geometricPrecision; }
+      .barA { animation: barA 1.6s ease-in-out infinite; transform-origin: 40px 58px; }
+      .barB { animation: barB 1.6s ease-in-out infinite 0.2s; transform-origin: 49px 58px; }
+      .barC { animation: barC 1.6s ease-in-out infinite 0.4s; transform-origin: 58px 58px; }
+      @keyframes barA { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(0.5); } }
+      @keyframes barB { 0%,100% { transform: scaleY(0.7); } 50% { transform: scaleY(1.2); } }
+      @keyframes barC { 0%,100% { transform: scaleY(1.1); } 50% { transform: scaleY(0.6); } }
     </style>
+
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#080F28"/>
+      <stop offset="100%" stop-color="#0E1635"/>
+    </linearGradient>
+
+    <linearGradient id="fireTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+
+    <!-- Highlighted Center Streak Card Gradient -->
+    <linearGradient id="streakCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1F1202"/>
+      <stop offset="50%" stop-color="#140C00"/>
+      <stop offset="100%" stop-color="#0A0600"/>
+    </linearGradient>
+    <linearGradient id="streakBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+
+    <!-- Side cards -->
+    <linearGradient id="sideCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#09122C"/>
+      <stop offset="100%" stop-color="#050C1F"/>
+    </linearGradient>
+
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFD700" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FF4500" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glowGold">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#FFD700" flood-opacity="0.6"/>
+    </filter>
+    <filter id="bigBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="898" height="298" rx="22"/>
+    </clipPath>
   </defs>
 
   <g clip-path="url(#cardClip)">
+    <!-- Base Background -->
     <rect x="1" y="1" width="898" height="298" rx="22" fill="url(#bgGrad)"/>
+    <rect x="1" y="1" width="898" height="298" rx="22" fill="none" stroke="#FF8C00" stroke-opacity="0.25" stroke-width="1.2"/>
 
-    <circle cx="40" cy="10" r="130" fill="url(#cornerGlowBlue)" filter="url(#bigBlur)" class="cornerPulse"/>
-    <circle cx="860" cy="290" r="150" fill="url(#cornerGlowPurple)" filter="url(#bigBlur)" class="cornerPulse" style="animation-delay:1.5s"/>
+    <!-- Ambient Corner Glows -->
+    <circle cx="60" cy="20" r="140" fill="#FF4500" opacity="0.08" filter="url(#bigBlur)"/>
+    <circle cx="840" cy="280" r="150" fill="#FFD700" opacity="0.07" filter="url(#bigBlur)"/>
+    <circle cx="450" cy="200" r="160" fill="#FF8C00" opacity="0.08" filter="url(#bigBlur)"/>
 
-    <circle class="particle" cx="70"  cy="270" r="2.4" fill="#38bdf8"/>
-    <circle class="particle" cx="180" cy="280" r="2"   fill="#a78bfa"/>
-    <circle class="particle" cx="300" cy="275" r="2.2" fill="#4ade80"/>
-    <circle class="particle" cx="430" cy="282" r="2.6" fill="#f472b6"/>
-    <circle class="particle" cx="560" cy="278" r="2"   fill="#38bdf8"/>
-    <circle class="particle" cx="680" cy="272" r="2.3" fill="#c084fc"/>
-    <circle class="particle" cx="780" cy="280" r="2"   fill="#fbbf24"/>
-    <circle class="particle" cx="850" cy="270" r="2.4" fill="#4ade80"/>
+    <!-- Floating Particles -->
+    <circle class="particle" cx="120" cy="270" r="2.2" fill="#FF8C00"/>
+    <circle class="particle" cx="300" cy="280" r="2.5" fill="#FFD700"/>
+    <circle class="particle" cx="580" cy="275" r="2.2" fill="#FF6B00"/>
+    <circle class="particle" cx="760" cy="282" r="2.4" fill="#FFD700"/>
 
-    <rect x="1" y="1" width="898" height="298" rx="22" fill="none" stroke="#3a4574" stroke-width="1.4" class="borderGlow"/>
+    <!-- HEADER SECTION (Compact & Crisp) -->
+    <g transform="translate(36 16)">
+      <rect x="0" y="2" width="34" height="34" rx="8" fill="#0A1432" stroke="#FF8C00" stroke-opacity="0.4" stroke-width="1"/>
+      <rect class="barA" x="7" y="19" width="4.5" height="13" rx="2" fill="#FF4500"/>
+      <rect class="barB" x="14.5" y="11" width="4.5" height="21" rx="2" fill="#FF8C00"/>
+      <rect class="barC" x="22" y="15" width="4.5" height="17" rx="2" fill="#FFD700"/>
 
-    <g class="fadeUp" style="animation-delay:0.05s">
-      <rect x="30" y="26" width="42" height="42" rx="12" fill="#161f3d" stroke="#2d3866" stroke-width="1"/>
-      <rect class="barA" x="41" y="46" width="6" height="16" rx="2" fill="url(#iconGrad)"/>
-      <rect class="barB" x="51" y="38" width="6" height="24" rx="2" fill="url(#iconGrad)"/>
-      <rect class="barC" x="61" y="42" width="6" height="20" rx="2" fill="url(#iconGrad)"/>
-      <text x="88" y="53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f1f5f9">GitHub Statistics</text>
-      <line x1="30" y1="80" x2="866" y2="80" stroke="#26304f" stroke-width="1.4"/>
-      <line x1="30" y1="80" x2="290" y2="80" stroke="url(#titleGrad)" stroke-width="2.2" stroke-dasharray="260" class="titleShimmer"/>
+      <text x="46" y="24" font-family="'Libre Baskerville', Georgia, serif" font-size="18" font-weight="700" fill="#F8FAFC">GitHub Activity &amp; Streak Metrics</text>
+
+      <!-- Subtitle badge -->
+      <rect x="600" y="5" width="228" height="24" rx="12" fill="#0A1530" stroke="#FFD700" stroke-opacity="0.35"/>
+      <circle cx="616" cy="17" r="3.5" fill="#34D399"/>
+      <text x="626" y="21" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#34D399">ACTIVE CONTRIBUTOR</text>
+
+      <line x1="0" y1="40" x2="828" y2="40" stroke="#1E2A4F" stroke-width="1"/>
+      <line x1="0" y1="40" x2="260" y2="40" stroke="url(#fireTitle)" stroke-width="2"/>
     </g>
 
-    <g class="fadeUp" style="animation-delay:0.2s">
-      <text x="450" y="108" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#e2e8f0">
-        <tspan class="rocket" fill="#fbbf24">🚀</tspan>  699 contributions in the last year!
+    <!-- Subtitle Summary Capsule: Prominent, High-Contrast, Zero Dominance by Streak Card -->
+    <g transform="translate(450 72)">
+      <rect x="-190" y="-14" width="380" height="28" rx="14" fill="#0A1432" stroke="#FF8C00" stroke-opacity="0.45" stroke-width="1.2"/>
+      <text x="0" y="5" text-anchor="middle" font-family="'Libre Baskerville', Georgia, serif" font-size="13.5" font-weight="700" fill="#FFFFFF">
+        <tspan class="rocket" fill="#FFD700">🚀</tspan>  699 contributions in the last year!
       </text>
     </g>
 
-    <g class="fadeUp" style="animation-delay:0.3s">
-      <rect x="55" y="128" width="790" height="150" rx="18" fill="#131a35" stroke="#2c3766" stroke-width="1.2"/>
-      <rect x="55" y="128" width="790" height="2" rx="1" fill="url(#titleGrad)" opacity="0.55"/>
+    <!-- ────────────────────────────────────────────── -->
+    <!-- THREE METRIC CARDS (Streak Centered & Highlighted) -->
+    <!-- ────────────────────────────────────────────── -->
+
+    <!-- CARD 1: TOTAL CONTRIBUTIONS (Left) -->
+    <g filter="url(#cardShadow)">
+      <rect x="55" y="116" width="235" height="150" rx="18" fill="url(#sideCardBg)" stroke="#1E2E5E" stroke-width="1.2"/>
+      <!-- Vector Box Icon badge -->
+      <circle cx="86" cy="140" r="13" fill="#FF8C00" fill-opacity="0.16" stroke="#FF8C00" stroke-opacity="0.4"/>
+      <g transform="translate(79 133)">
+        <path d="M7 1L1 4V10L7 13L13 10V4L7 1Z" stroke="#FF8C00" stroke-width="1.2" fill="none"/>
+        <path d="M7 1V13M1 4L7 7L13 4" stroke="#FF8C00" stroke-width="1.2"/>
+      </g>
+      <text x="108" y="144" font-family="'Libre Baskerville', Georgia, serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#FF8C00">CONTRIBUTIONS</text>
+
+      <!-- Target 1: Total Contributions Number -->
+      <text x="188" y="198" text-anchor="middle" font-family="'Fira Code', monospace" font-size="38" font-weight="800" fill="#F8FAFC">699</text>
+      <text x="188" y="226" text-anchor="middle" font-family="'Libre Baskerville', Georgia, serif" font-size="14" font-weight="700" fill="#C5D2E8">Total Contributions</text>
+      <text x="188" y="248" text-anchor="middle" font-family="'Fira Code', monospace" font-size="12" fill="#4ADE80">Mar 22 - Present</text>
     </g>
 
-    <line x1="322" y1="152" x2="322" y2="230" stroke="#2f3a68" stroke-width="1.3" class="fadeUp" style="animation-delay:0.5s"/>
-    <line x1="578" y1="152" x2="578" y2="230" stroke="#2f3a68" stroke-width="1.3" class="fadeUp" style="animation-delay:0.5s"/>
+    <!-- CARD 2: CURRENT STREAK (CENTER - HIGHLIGHTED!) -->
+    <g filter="url(#cardShadow)">
+      <!-- Outer glow border -->
+      <rect x="315" y="112" width="270" height="156" rx="20" fill="url(#streakCardBg)" stroke="url(#streakBorder)" stroke-width="2" class="streakGlow"/>
+      
+      <!-- Highlight pill badge strictly INSIDE the card (y=122, well clear of rocket text above!) -->
+      <rect x="380" y="122" width="140" height="18" rx="9" fill="#FF8C00"/>
+      <text x="450" y="135" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9.5" font-weight="800" letter-spacing="1.2" fill="#050816">⚡ STREAK LEADER ⚡</text>
 
-    <g class="popIn" style="animation-delay:0.45s">
-      <text x="188" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38bdf8">699</text>
-      <text x="188" y="226" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Total Contributions</text>
-      <text x="188" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Mar 22 - Present</text>
+      <!-- Flame Icon -->
+      <g transform="translate(443 145)">
+        <path d="M7 0C7 0 10 3.5 10 6C10 7.7 8.7 9 7 9C5.3 9 4 7.7 4 6C4 4.7 5.5 2.5 7 0Z" fill="#FFD700"/>
+        <path d="M7 1.5C7 1.5 12 5.5 12 9.5C12 12.3 9.8 14.5 7 14.5C4.2 14.5 2 12.3 2 9.5C2 7 5 3.5 7 1.5Z" stroke="#FF4500" stroke-width="1.2" fill="none"/>
+      </g>
+
+      <!-- Target 2: Current Streak Number (Big, Glowing Fire Gold) -->
+      <text x="450" y="198" text-anchor="middle" font-family="'Fira Code', monospace" font-size="44" font-weight="800" fill="#FFD700" filter="url(#glowGold)">90</text>
+      <text x="450" y="226" text-anchor="middle" font-family="'Libre Baskerville', Georgia, serif" font-size="15" font-weight="700" fill="#FFE8B0">Current Streak</text>
+      
+      <!-- Target 3: Current Streak Date -->
+      <text x="450" y="248" text-anchor="middle" font-family="'Fira Code', monospace" font-size="12.5" font-weight="600" fill="#34D399">Jun 15 - Present</text>
     </g>
 
-    <g class="popIn" style="animation-delay:0.6s">
-      <text x="450" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#e879f9">90</text>
-      <text x="450" y="226" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Current Streak</text>
-      <text x="450" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Jun 15 - Present</text>
+    <!-- CARD 3: LONGEST STREAK (Right) -->
+    <g filter="url(#cardShadow)">
+      <rect x="610" y="112" width="235" height="152" rx="18" fill="url(#sideCardBg)" stroke="#1E2E5E" stroke-width="1.2"/>
+      <!-- Vector Trophy Icon badge -->
+      <circle cx="641" cy="138" r="13" fill="#FFD700" fill-opacity="0.16" stroke="#FFD700" stroke-opacity="0.4"/>
+      <g transform="translate(634 131)">
+        <path d="M3 2H11V5C11 7.2 9.2 9 7 9C4.8 9 3 7.2 3 5V2Z" fill="#FFD700"/>
+        <path d="M3 3H1C1 4.5 2.2 5.5 3.5 5.5V4.5C2.5 4.5 2 4 2 3H3V3Z" fill="#FF8C00"/>
+        <path d="M11 3H13C13 4.5 11.8 5.5 10.5 5.5V4.5C11.5 4.5 12 4 12 3H11V3Z" fill="#FF8C00"/>
+        <path d="M6 9H8V11H6V9Z" fill="#FFD700"/>
+        <rect x="4" y="11" width="6" height="2" rx="0.5" fill="#FF8C00"/>
+      </g>
+      <text x="663" y="142" font-family="'Libre Baskerville', Georgia, serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#FFD700">PERSONAL BEST</text>
+
+      <!-- Target 4: Longest Streak Number -->
+      <text x="712" y="198" text-anchor="middle" font-family="'Fira Code', monospace" font-size="38" font-weight="800" fill="#F8FAFC">90</text>
+      <text x="712" y="226" text-anchor="middle" font-family="'Libre Baskerville', Georgia, serif" font-size="14" font-weight="700" fill="#C5D2E8">Longest Streak</text>
+      
+      <!-- Target 5: Longest Streak Date -->
+      <text x="712" y="248" text-anchor="middle" font-family="'Fira Code', monospace" font-size="12" fill="#4ADE80">Jun 15 - Sep 12</text>
     </g>
 
-    <g class="popIn" style="animation-delay:0.75s">
-      <text x="712" y="198" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38bdf8">90</text>
-      <text x="712" y="226" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#cbd5e1">Longest Streak</text>
-      <text x="712" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4ade80">Jun 15 - Sep 12</text>
-    </g>
-
-    <g class="fadeUp" style="animation-delay:0.95s">
-      <rect x="55" y="286" width="790" height="2.5" rx="1.2" fill="#232d52"/>
-      <rect class="sweepBar" x="0" y="284" width="120" height="6" rx="3" fill="url(#sweepGrad)"/>
-    </g>
+    <!-- Bottom Progress / Sweep Bar -->
+    <rect x="55" y="286" width="790" height="2" rx="1" fill="#152042"/>
+    <rect class="sweepBar" x="0" y="285" width="140" height="4" rx="2" fill="url(#sweepGrad)"/>
   </g>
 </svg>

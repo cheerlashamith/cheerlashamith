@@ -1,40 +1,61 @@
 <svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700;800&amp;display=swap');
+    </style>
     <linearGradient id="textGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9"/>
-      <stop offset="0.5" stop-color="#C084FC"/>
-      <stop offset="1" stop-color="#F472B6"/>
+      <stop stop-color="#FF4500"/>
+      <stop offset="0.35" stop-color="#FF8C00"/>
+      <stop offset="0.7" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#FF8C00"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4500" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#FFD700" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FF4500" stop-opacity="0.35"/>
     </linearGradient>
     <filter id="glow">
-      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#7C3AED" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#FF6B00" flood-opacity="0.65"/>
     </filter>
   </defs>
+
   <rect width="1200" height="150" rx="24" fill="#050816"/>
-  <rect x="1" y="1" width="1198" height="148" rx="23" stroke="#A78BFA" stroke-opacity="0.25"/>
-  <g font-family="'Fira Code', monospace" font-size="54" font-weight="700" text-anchor="middle" filter="url(#glow)">
-    <text x="600" y="94" fill="#94A3B8">
-      C#E3R!A _H@M!7H
+  <rect x="1" y="1" width="1198" height="148" rx="23" stroke="url(#borderGrad)" stroke-width="1.4"/>
+
+  <!-- Top Tech Chip -->
+  <rect x="500" y="14" width="200" height="22" rx="11" fill="#0A1430" stroke="#FF8C00" stroke-opacity="0.4"/>
+  <circle cx="514" cy="25" r="3.5" fill="#34D399"/>
+  <text x="526" y="29" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#34D399" letter-spacing="1">DECRYPTED IDENTITY</text>
+
+  <!-- Scramble Cycling Sequence -->
+  <g font-family="'Fira Code', monospace" font-size="46" font-weight="700" text-anchor="middle" filter="url(#glow)">
+    <text x="600" y="98" fill="#4B5563">
+      [ C#E3R!A _H@M!7H ]
       <animate attributeName="opacity" values="1;0;0;0;0;0" dur="2.8s" repeatCount="indefinite"/>
     </text>
-    <text x="600" y="94" fill="#A5B4FC">
-      CH33RLA $HAM!TH
+    <text x="600" y="98" fill="#F59E0B">
+      [ CH33RLA $HAM!TH ]
       <animate attributeName="opacity" values="0;1;0;0;0;0" dur="2.8s" repeatCount="indefinite"/>
     </text>
-    <text x="600" y="94" fill="#67E8F9">
-      CHEERL4 SH4M1TH
+    <text x="600" y="98" fill="#FF8C00">
+      [ CHEERL4 SH4M1TH ]
       <animate attributeName="opacity" values="0;0;1;0;0;0" dur="2.8s" repeatCount="indefinite"/>
     </text>
-    <text x="600" y="94" fill="#F9A8D4">
-      CHEERLA SHAM!TH
+    <text x="600" y="98" fill="#FBBF24">
+      [ CHEERLA SHAM!TH ]
       <animate attributeName="opacity" values="0;0;0;1;0;0" dur="2.8s" repeatCount="indefinite"/>
     </text>
-    <text x="600" y="94" fill="url(#textGrad)">
-      CHEERLA SHAMITH
+    <text x="600" y="98" fill="url(#textGrad)">
+      [ CHEERLA SHAMITH ]
       <animate attributeName="opacity" values="0;0;0;0;1;1" dur="2.8s" repeatCount="indefinite"/>
     </text>
   </g>
-  <g stroke="#22D3EE" stroke-opacity="0.35">
-    <path d="M72 120H190"/>
-    <path d="M1010 120H1128"/>
+
+  <!-- Corner Brackets -->
+  <g stroke="#FF8C00" stroke-opacity="0.4" stroke-width="1.8">
+    <path d="M60 120H160"/>
+    <path d="M1040 120H1140"/>
   </g>
+  <circle cx="60" cy="120" r="3" fill="#FFD700"/>
+  <circle cx="1140" cy="120" r="3" fill="#FFD700"/>
 </svg>

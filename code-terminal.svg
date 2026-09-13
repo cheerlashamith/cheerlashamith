@@ -1,60 +1,181 @@
 <svg width="1100" height="700" viewBox="0 0 1100 700" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="700" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#060B18"/>
-      <stop offset="1" stop-color="#120C28"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;family=Libre+Baskerville:ital,wght@0,700;1,400&amp;display=swap');
+      .pulseDot { animation: pulseAnim 2s ease-in-out infinite; }
+      @keyframes pulseAnim {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50%      { opacity: 0.4; transform: scale(0.85); }
+      }
+      .cursorBlink { animation: blinkAnim 1s step-start infinite; }
+      @keyframes blinkAnim {
+        0%, 100% { opacity: 1; }
+        50%      { opacity: 0; }
+      }
+      .glowBorder { animation: borderGlowAnim 4s ease-in-out infinite; }
+      @keyframes borderGlowAnim {
+        0%, 100% { stroke-opacity: 0.45; }
+        50%      { stroke-opacity: 0.85; }
+      }
+    </style>
+
+    <linearGradient id="termBg" x1="0" y1="0" x2="1100" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#080F28"/>
+      <stop offset="1" stop-color="#0E1636"/>
     </linearGradient>
-    <linearGradient id="outline" x1="122" y1="70" x2="936" y2="622" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9"/>
-      <stop offset="1" stop-color="#C084FC"/>
+
+    <linearGradient id="frameBorder" x1="0" y1="0" x2="1100" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4500"/>
+      <stop offset="0.5" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#FF6B00"/>
     </linearGradient>
-    <linearGradient id="screenGlow" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#8B5CF6"/>
+
+    <linearGradient id="activeTab" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#141E3C"/>
+      <stop offset="1" stop-color="#0A1024"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#000000" flood-opacity="0.45"/>
+
+    <linearGradient id="termDrawer" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#070D1E"/>
+      <stop offset="1" stop-color="#040710"/>
+    </linearGradient>
+
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+    <filter id="subtleBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="40"/>
     </filter>
   </defs>
-  <rect width="1100" height="700" rx="34" fill="url(#bg)"/>
-  <g filter="url(#shadow)">
-    <rect x="110" y="72" width="880" height="500" rx="28" fill="#0A1121" stroke="url(#outline)" stroke-opacity="0.7" stroke-width="2"/>
-    <rect x="144" y="110" width="812" height="392" rx="22" fill="#060B16"/>
-    <circle cx="170" cy="136" r="8" fill="#FB7185"/>
-    <circle cx="198" cy="136" r="8" fill="#FBBF24"/>
-    <circle cx="226" cy="136" r="8" fill="#34D399"/>
-    <rect x="260" y="122" width="208" height="28" rx="14" fill="#0F172A"/>
-    <text x="286" y="141" fill="#94A3B8" font-family="'Fira Code', monospace" font-size="16">/portfolio/readme/creative-mode</text>
 
-    <g font-family="'Fira Code', monospace" font-size="22">
-      <text x="178" y="200" fill="#67E8F9">$ npm run build-future</text>
-      <text x="178" y="248" fill="#E5E7EB">Initializing experience layers...</text>
-      <text x="178" y="290" fill="#C084FC">✓ animated hero modules ready</text>
-      <text x="178" y="332" fill="#F9A8D4">✓ vector illustrations loaded</text>
-      <text x="178" y="374" fill="#A7F3D0">✓ professional README components compiled</text>
-      <text x="178" y="416" fill="#FDE68A">✓ typewriter + scramble sequences activated</text>
-      <text x="178" y="458" fill="#93C5FD">Deploying standout developer identity...</text>
+  <rect width="1100" height="700" rx="28" fill="url(#termBg)"/>
+
+  <ellipse cx="550" cy="350" rx="350" ry="200" fill="#FF8C00" opacity="0.04" filter="url(#subtleBlur)"/>
+  <ellipse cx="200" cy="180" rx="180" ry="120" fill="#FF4500" opacity="0.05" filter="url(#subtleBlur)"/>
+  <ellipse cx="900" cy="520" rx="220" ry="140" fill="#FFD700" opacity="0.04" filter="url(#subtleBlur)"/>
+
+  <!-- WORKSTATION WINDOW -->
+  <g transform="translate(45 35)" filter="url(#boxShadow)">
+    <rect width="1010" height="630" rx="22" fill="#070D1F" stroke="url(#frameBorder)" stroke-width="1.6" class="glowBorder"/>
+
+    <!-- TITLEBAR -->
+    <rect width="1010" height="46" rx="22" fill="#0A122A"/>
+    <rect y="22" width="1010" height="24" fill="#0A122A"/>
+    <line x1="0" y1="46" x2="1010" y2="46" stroke="#1A264D" stroke-width="1.2"/>
+
+    <circle cx="28" cy="23" r="6.5" fill="#FF5F56"/>
+    <circle cx="50" cy="23" r="6.5" fill="#FFBD2E"/>
+    <circle cx="72" cy="23" r="6.5" fill="#27C93F"/>
+
+    <!-- Tabs -->
+    <path d="M104 46 L114 16 H300 L310 46 Z" fill="url(#activeTab)"/>
+    <line x1="114" y1="16" x2="300" y2="16" stroke="#FF8C00" stroke-width="2"/>
+    <text x="134" y="32" font-family="'Fira Code', monospace" font-size="12.5" font-weight="600" fill="#F8FAFC">developer.profile.ts</text>
+    <circle cx="290" cy="28" r="3.5" fill="#FF8C00"/>
+
+    <text x="335" y="32" font-family="'Fira Code', monospace" font-size="12" fill="#6A7D9D">agent_pipeline.py</text>
+    <text x="515" y="32" font-family="'Fira Code', monospace" font-size="12" fill="#6A7D9D">system_arch.md</text>
+
+    <rect x="830" y="11" width="160" height="24" rx="12" fill="#060C1C" stroke="#FF8C00" stroke-opacity="0.3"/>
+    <circle cx="844" cy="23" r="4" fill="#34D399" class="pulseDot"/>
+    <text x="856" y="27" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#34D399">NODE v20 · TS 5.4</text>
+
+    <!-- Left Sidebar: Explorer -->
+    <rect y="46" width="190" height="414" fill="#060C1C"/>
+    <line x1="190" y1="46" x2="190" y2="460" stroke="#1A264D" stroke-width="1"/>
+
+    <text x="18" y="72" font-family="'Libre Baskerville', Georgia, serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7E94B5">EXPLORER</text>
+
+    <g font-family="'Fira Code', monospace" font-size="11.5" fill="#9FB4D0" transform="translate(18 92)">
+      <text y="0" fill="#FBBF24">src/</text>
+      <text y="22" x="12" fill="#60A5FA">agents/</text>
+      <text y="42" x="24" fill="#E2E8F0">planner.ts</text>
+      <text y="62" x="24" fill="#E2E8F0">scriptwriter.ts</text>
+      <text y="84" x="12" fill="#FF8C00">fullstack/</text>
+      <text y="104" x="24" fill="#E2E8F0">api_routes.ts</text>
+      <text y="124" x="24" fill="#E2E8F0">frontend_ui.tsx</text>
+      <text y="146" x="12" fill="#34D399">dsa/</text>
+      <text y="166" x="24" fill="#E2E8F0">2000_solved.cpp</text>
+      <text y="188" fill="#F87171">configs/</text>
+      <text y="208" x="12" fill="#FFD700">ollama_env.json</text>
     </g>
 
-    <g transform="translate(690 192)">
-      <rect x="0" y="0" width="200" height="200" rx="30" fill="#0C1427" stroke="#22D3EE" stroke-opacity="0.35"/>
-      <circle cx="100" cy="100" r="62" fill="none" stroke="#1D4ED8" stroke-opacity="0.3" stroke-width="2">
-        <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="14s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="100" cy="100" r="42" fill="none" stroke="#C084FC" stroke-width="2" stroke-dasharray="10 8">
-        <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="100" cy="100" r="20" fill="url(#screenGlow)"/>
-      <circle cx="100" cy="38" r="6" fill="#67E8F9"/>
-      <circle cx="162" cy="100" r="6" fill="#F472B6"/>
-      <circle cx="100" cy="162" r="6" fill="#A78BFA"/>
-      <circle cx="38" cy="100" r="6" fill="#34D399"/>
-    </g>
-  </g>
+    <!-- Sidebar Metrics -->
+    <rect x="12" y="360" width="166" height="86" rx="10" fill="#0A1430" stroke="#1E2E5E" stroke-width="1"/>
+    <text x="22" y="382" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#FFD700">LIVE STATUS</text>
+    <text x="22" y="402" font-family="'Fira Code', monospace" font-size="10" fill="#9EB3D8">CPU: 22%  RAM: 3.2G</text>
+    <text x="22" y="420" font-family="'Fira Code', monospace" font-size="10" fill="#34D399">Ollama: Online (GPU)</text>
+    <text x="22" y="438" font-family="'Fira Code', monospace" font-size="10" fill="#60A5FA">DSA: 2000+ Verified</text>
 
-  <g transform="translate(226 580)">
-    <path d="M0 22H648" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
-    <path d="M214 22L176 96H472L434 22" fill="#0F172A" stroke="#475569"/>
-    <rect x="140" y="96" width="368" height="28" rx="14" fill="#111827" stroke="#334155"/>
+    <!-- Editor Code Area -->
+    <rect x="190" y="46" width="820" height="414" fill="#04091A"/>
+
+    <g font-family="'Fira Code', monospace" font-size="12" fill="#374768" text-anchor="end">
+      <text x="224" y="78">1</text>
+      <text x="224" y="102">2</text>
+      <text x="224" y="126">3</text>
+      <text x="224" y="150">4</text>
+      <text x="224" y="174">5</text>
+      <text x="224" y="198">6</text>
+      <text x="224" y="222">7</text>
+      <text x="224" y="246">8</text>
+      <text x="224" y="270">9</text>
+      <text x="224" y="294">10</text>
+      <text x="224" y="318">11</text>
+      <text x="224" y="342">12</text>
+      <text x="224" y="366">13</text>
+      <text x="224" y="390">14</text>
+      <text x="224" y="414">15</text>
+    </g>
+
+    <!-- Code Line Content -->
+    <g font-family="'Fira Code', monospace" font-size="13" transform="translate(242 0)">
+      <text y="78" fill="#F472B6">import <tspan fill="#E2E8F0">{ Engineer, AgentCluster }</tspan> <tspan fill="#F472B6">from</tspan> <tspan fill="#FCD34D">'@shamith/core'</tspan>;</text>
+      
+      <text y="102" fill="#6A7D9D">// Full-Stack Engineer &amp; AI Systems Profile</text>
+      <text y="126" fill="#F472B6">export const <tspan fill="#60A5FA">shamith</tspan>: <tspan fill="#FBBF24">Engineer</tspan> = {</text>
+      <text y="150" fill="#E2E8F0">  name: <tspan fill="#FFD700">"Cheerla Shamith"</tspan>,</text>
+      <text y="174" fill="#E2E8F0">  roles: [<tspan fill="#FCD34D">"Full-Stack Developer"</tspan>, <tspan fill="#FCD34D">"AI Agent Engineer"</tspan>, <tspan fill="#FCD34D">"CP Solver"</tspan>],</text>
+      <text y="198" fill="#E2E8F0">  academic_cgpa: <tspan fill="#FF8C00">9.38</tspan>, dsa_problems: <tspan fill="#FF8C00">2000+</tspan>,</text>
+      <text y="222" fill="#E2E8F0">  tech_arsenal: {</text>
+      <text y="246" fill="#E2E8F0">    web: [<tspan fill="#38BDF8">"React.js"</tspan>, <tspan fill="#38BDF8">"Node.js"</tspan>, <tspan fill="#38BDF8">"Express"</tspan>, <tspan fill="#38BDF8">"MongoDB"</tspan>, <tspan fill="#38BDF8">"TailwindCSS"</tspan>],</text>
+      <text y="270" fill="#E2E8F0">    ai_agentic: [<tspan fill="#FF8C00">"Ollama Local LLMs"</tspan>, <tspan fill="#FF8C00">"Multi-Agent Orchestration"</tspan>],</text>
+      <text y="294" fill="#E2E8F0">    languages: [<tspan fill="#A78BFA">"Python"</tspan>, <tspan fill="#A78BFA">"Java"</tspan>, <tspan fill="#A78BFA">"C"</tspan>, <tspan fill="#A78BFA">"JavaScript"</tspan>]</text>
+      <text y="318" fill="#E2E8F0">  },</text>
+      <text y="342" fill="#E2E8F0">  flagship_build: <tspan fill="#FCD34D">"MAESTRO — YouTube Automation System"</tspan>,</text>
+      <text y="366" fill="#E2E8F0">  mindset: <tspan fill="#34D399">"Build useful things. Ship with velocity."</tspan></text>
+      <text y="390" fill="#F472B6">};</text>
+
+      <text y="414" fill="#34D399">✔ Profile compiled successfully. All services ready to deploy.</text>
+    </g>
+
+    <!-- INTEGRATED TERMINAL DRAWER -->
+    <rect y="460" width="1010" height="148" fill="url(#termDrawer)"/>
+    <line x1="0" y1="460" x2="1010" y2="460" stroke="#FF8C00" stroke-opacity="0.35" stroke-width="1.2"/>
+
+    <!-- Terminal Drawer Header -->
+    <rect y="460" width="1010" height="26" fill="#09132C"/>
+    <line x1="0" y1="486" x2="1010" y2="486" stroke="#1A264D" stroke-width="1"/>
+
+    <text x="24" y="478" font-family="'Fira Code', monospace" font-size="11.5" font-weight="700" fill="#FF8C00">TERMINAL</text>
+    <text x="110" y="478" font-family="'Fira Code', monospace" font-size="11" fill="#6A7D9D">OUTPUT</text>
+    <text x="180" y="478" font-family="'Fira Code', monospace" font-size="11" fill="#6A7D9D">PORTS: 3000, 8000, 11434 (Ollama)</text>
+
+    <!-- Terminal Output (Clean, Spacious, Zero Overlap with Status Bar) -->
+    <g font-family="'Fira Code', monospace" font-size="12" transform="translate(24 506)">
+      <text y="0" fill="#38BDF8">cheerla@shamith:~$ <tspan fill="#F8FAFC">ollama list &amp;&amp; npm run status</tspan></text>
+      <text y="22" fill="#E2E8F0">Active Models: <tspan fill="#FF8C00">llama3 (8B)</tspan> | <tspan fill="#FF8C00">mistral (7B)</tspan> • GPU Engine: <tspan fill="#34D399">Online (4ms)</tspan></text>
+      <text y="44" fill="#34D399">✔ [MERN Stack: Active]  ✔ [AI Agents: Online]  ✔ [DSA: 2000+ Solved]  ✔ [MAESTRO: Live]</text>
+      <text y="66" fill="#38BDF8">cheerla@shamith:~$ <tspan fill="#FFD700">python -m agents.orchestrate</tspan></text>
+      <rect x="382" y="54" width="8" height="14" fill="#FFD700" class="cursorBlink"/>
+    </g>
+
+    <!-- Status Bar (Completely Clear of Terminal Content) -->
+    <rect y="608" width="1010" height="22" fill="#0A1226"/>
+    <line x1="0" y1="608" x2="1010" y2="608" stroke="#FF8C00" stroke-opacity="0.3"/>
+    <text x="24" y="623" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#FFD700">main*  0 errors, 0 warnings</text>
+    <text x="500" y="623" font-family="'Fira Code', monospace" font-size="10.5" fill="#9EB3D8" text-anchor="middle">UTF-8 • TypeScript • Prettier</text>
+    <text x="980" y="623" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#34D399" text-anchor="end">Production Ready 🚀</text>
   </g>
 </svg>

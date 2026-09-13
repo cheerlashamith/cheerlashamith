@@ -1,111 +1,271 @@
-<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="560" viewBox="0 0 1600 560" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Fira+Code:wght@400;500;600&amp;display=swap');
+    </style>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="0" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#050816"/>
-      <stop offset="0.45" stop-color="#0B1026"/>
-      <stop offset="1" stop-color="#130C30"/>
+      <stop offset="0.55" stop-color="#080F28"/>
+      <stop offset="1" stop-color="#0C1230"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 120) rotate(34) scale(360 240)">
-      <stop stop-color="#6EE7F9" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#6EE7F9" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 390) rotate(-12) scale(420 260)">
-      <stop stop-color="#A855F7" stop-opacity="0.33"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="cardStroke" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#8BE9FD"/>
-      <stop offset="1" stop-color="#C084FC"/>
+    <linearGradient id="fireText" x1="0" y1="0" x2="680" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B00"/>
+      <stop offset="0.4" stop-color="#FFB300"/>
+      <stop offset="0.75" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#FF8C00"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#F472B6"/>
+    <linearGradient id="goldAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF6B00"/>
+      <stop offset="1" stop-color="#FFD700"/>
     </linearGradient>
-    <filter id="blur20" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="20"/>
+    <linearGradient id="topBar" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4500"/>
+      <stop offset="0.3" stop-color="#FF8C00"/>
+      <stop offset="0.6" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#FF4500"/>
+    </linearGradient>
+    <linearGradient id="separatorH" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF8C00" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FF8C00" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FF8C00" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="separatorV" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FF8C00" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4A6FA5" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FF8C00" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="blockA" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#07102A"/>
+      <stop offset="1" stop-color="#050C1E"/>
+    </linearGradient>
+    <linearGradient id="blockStatA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF4500" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FF8C00" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="blockStatB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFD700" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FF8C00" stop-opacity="0.03"/>
+    </linearGradient>
+    <filter id="bigGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="70"/>
     </filter>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="16" stdDeviation="28" flood-color="#000814" flood-opacity="0.45"/>
+    <filter id="fireGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#FF7700" flood-opacity="0.65"/>
     </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#99A1FF" stroke-opacity="0.08"/>
+    <filter id="subtleGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#FFD700" flood-opacity="0.40"/>
+    </filter>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <pattern id="dotGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.9" fill="#4A6FA5" fill-opacity="0.09"/>
+    </pattern>
+    <pattern id="crossHatch" width="18" height="18" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="18" x2="18" y2="0" stroke="#2A3B66" stroke-opacity="0.07" stroke-width="0.8"/>
     </pattern>
   </defs>
 
-  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
-  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
-  <rect x="0" y="0" width="1600" height="520" rx="28" fill="url(#glowA)"/>
-  <rect x="0" y="0" width="1600" height="520" rx="28" fill="url(#glowB)"/>
+  <rect width="1600" height="560" fill="url(#pageBg)"/>
+  <rect width="1600" height="560" fill="url(#dotGrid)"/>
+  <ellipse cx="300" cy="380" rx="320" ry="180" fill="#1A2A6C" opacity="0.10" filter="url(#bigGlow)"/>
+  <ellipse cx="820" cy="260" rx="420" ry="160" fill="#FF6B00" opacity="0.035" filter="url(#bigGlow)"/>
+  <ellipse cx="1420" cy="120" rx="240" ry="110" fill="#FFD700" opacity="0.045" filter="url(#bigGlow)"/>
+  <ellipse cx="1350" cy="480" rx="200" ry="100" fill="#FF4500" opacity="0.04" filter="url(#bigGlow)"/>
 
-  <g opacity="0.65">
-    <circle cx="1380" cy="108" r="4" fill="#8BE9FD">
-      <animate attributeName="cy" values="108;100;108" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1450" cy="182" r="5" fill="#F472B6">
-      <animate attributeName="cy" values="182;172;182" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1290" cy="206" r="3" fill="#A78BFA">
-      <animate attributeName="cy" values="206;196;206" dur="4.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="118" cy="428" r="5" fill="#22D3EE">
-      <animate attributeName="cy" values="428;414;428" dur="4.5s" repeatCount="indefinite"/>
-    </circle>
+  <rect x="0" y="0" width="1600" height="4" fill="url(#topBar)"/>
+
+  <rect x="0" y="4" width="1600" height="38" fill="#040C1E"/>
+  <text font-family="'Libre Baskerville', Georgia, serif" font-size="12" font-style="italic" fill="#FF8C00" letter-spacing="4" fill-opacity="0.75">
+    <textPath href="#mPath">
+      ✦ Full-Stack Engineering  ✦ AI Agent Systems  ✦ Competitive Programming  ✦ YouTube Automation  ✦ MERN Architecture  ✦ Ollama Integration  ✦ System Design  ✦ Builder from India  ✦ Full-Stack Engineering  ✦ AI Agent Systems  ✦
+    </textPath>
+  </text>
+  <path id="mPath" d="M0 24 H1600"/>
+  <line x1="0" y1="42" x2="1600" y2="42" stroke="url(#separatorH)" stroke-width="1"/>
+
+  <rect x="500" y="46" width="1" height="514" fill="url(#separatorV)"/>
+  <rect x="1080" y="46" width="1" height="514" fill="url(#separatorV)"/>
+
+  <!-- COLUMN A: IDENTITY -->
+  <rect x="0" y="46" width="500" height="514" fill="url(#blockA)"/>
+  <rect x="0" y="46" width="500" height="514" fill="url(#crossHatch)"/>
+  <path d="M24 68 H58" stroke="#FF8C00" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M24 68 V102" stroke="#FF8C00" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M476 68 H442" stroke="#FF8C00" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M476 68 V102" stroke="#FF8C00" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M24 544 H58" stroke="#4A6FA5" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M24 544 V510" stroke="#4A6FA5" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M476 544 H442" stroke="#4A6FA5" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M476 544 V510" stroke="#4A6FA5" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <rect x="32" y="78" width="136" height="27" rx="13.5" fill="#0E1A3A" stroke="#FF8C00" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="46" y="96" fill="#FFD700" font-size="11" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="2">DEVELOPER</text>
+
+  <text x="32" y="204" fill="#EBE3D4" font-size="82" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" letter-spacing="-1">Cheerla</text>
+  <text x="32" y="298" fill="url(#fireText)" font-size="92" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" letter-spacing="-2" filter="url(#fireGlow)">Shamith</text>
+  <rect x="32" y="316" width="416" height="1.5" fill="url(#goldAccent)" opacity="0.55"/>
+  <text x="32" y="344" fill="#9EB3D8" font-size="15.5" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">Full-Stack · Generative AI · Competitive Programming</text>
+
+  <g transform="translate(32 364)">
+    <rect x="0" y="0" width="108" height="28" rx="14" fill="#0A1530" stroke="#FF8C00" stroke-opacity="0.45"/>
+    <text x="14" y="19" fill="#FFD700" font-size="12" font-family="'Libre Baskerville', Georgia, serif">India</text>
+    <rect x="118" y="0" width="148" height="28" rx="14" fill="#0A1530" stroke="#FFD700" stroke-opacity="0.40"/>
+    <text x="132" y="19" fill="#FFD700" font-size="12" font-family="'Libre Baskerville', Georgia, serif">Open to Collab</text>
+    <rect x="276" y="0" width="118" height="28" rx="14" fill="#0A1530" stroke="#FF6B00" stroke-opacity="0.42"/>
+    <text x="290" y="19" fill="#FF8C00" font-size="12" font-family="'Libre Baskerville', Georgia, serif">CGPA 9.38+</text>
   </g>
 
-  <g filter="url(#blur20)" opacity="0.7">
-    <circle cx="1040" cy="146" r="80" fill="#7C3AED"/>
-    <circle cx="1110" cy="320" r="90" fill="#0EA5E9"/>
-    <circle cx="1320" cy="250" r="100" fill="#EC4899"/>
+  <text x="32" y="430" fill="#6B82A8" font-size="13.5" font-family="'Libre Baskerville', Georgia, serif">Crafting scalable applications, autonomous AI pipelines,</text>
+  <text x="32" y="450" fill="#6B82A8" font-size="13.5" font-family="'Libre Baskerville', Georgia, serif">and high-throughput backend services with precision.</text>
+
+  <g transform="translate(32 472)">
+    <rect x="0" y="0" width="94" height="26" rx="13" fill="#0A1530" stroke="#4A6FA5" stroke-opacity="0.45"/>
+    <text x="14" y="17" fill="#7AABDC" font-size="11" font-family="'Libre Baskerville', Georgia, serif">Ollama</text>
+    <rect x="104" y="0" width="116" height="26" rx="13" fill="#0A1530" stroke="#4A6FA5" stroke-opacity="0.45"/>
+    <text x="118" y="17" fill="#7AABDC" font-size="11" font-family="'Libre Baskerville', Georgia, serif">Multi-Agents</text>
+    <rect x="230" y="0" width="104" height="26" rx="13" fill="#0A1530" stroke="#4A6FA5" stroke-opacity="0.45"/>
+    <text x="244" y="17" fill="#7AABDC" font-size="11" font-family="'Libre Baskerville', Georgia, serif">Automation</text>
   </g>
 
-  <g transform="translate(70 74)">
-    <rect x="0" y="0" width="760" height="372" rx="28" fill="#0A1022" stroke="url(#cardStroke)" stroke-opacity="0.55" filter="url(#softShadow)"/>
-    <rect x="26" y="24" width="708" height="324" rx="22" fill="#050B18" stroke="#5EEAD4" stroke-opacity="0.12"/>
+  <circle cx="44" cy="518" r="5" fill="#FF8C00">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="58" y="523" fill="#FF8C00" font-size="12" font-family="'Fira Code', monospace">Available · Shipping · Exploring</text>
 
-    <circle cx="58" cy="50" r="7" fill="#FB7185"/>
-    <circle cx="84" cy="50" r="7" fill="#FBBF24"/>
-    <circle cx="110" cy="50" r="7" fill="#34D399"/>
+  <!-- COLUMN B: CODE TERMINAL -->
+  <rect x="501" y="46" width="578" height="514" fill="#040C1E"/>
+  <rect x="501" y="46" width="578" height="514" fill="url(#dotGrid)" opacity="0.5"/>
 
-    <text x="40" y="104" fill="#6EE7F9" font-size="22" font-family="'Fira Code', monospace">const developer = {</text>
-    <text x="74" y="148" fill="#E5E7EB" font-size="24" font-family="'Fira Code', monospace">name: <tspan fill="#F9A8D4">"Cheerla Shamith"</tspan>,</text>
-    <text x="74" y="192" fill="#E5E7EB" font-size="24" font-family="'Fira Code', monospace">roles: [<tspan fill="#A5B4FC">"Full-Stack"</tspan>, <tspan fill="#67E8F9">"GenAI"</tspan>, <tspan fill="#C084FC">"CP"</tspan>],</text>
-    <text x="74" y="236" fill="#E5E7EB" font-size="24" font-family="'Fira Code', monospace">focus: <tspan fill="#34D399">"Scalable apps + AI systems"</tspan>,</text>
-    <text x="74" y="280" fill="#E5E7EB" font-size="24" font-family="'Fira Code', monospace">status: <tspan fill="#FDE68A">"Building the future"</tspan></text>
-    <text x="40" y="324" fill="#6EE7F9" font-size="22" font-family="'Fira Code', monospace">};</text>
+  <rect x="520" y="66" width="540" height="44" rx="13" fill="#080F28" stroke="#1E2E56" stroke-width="1"/>
+  <circle cx="546" cy="88" r="7" fill="#FF4545"/>
+  <circle cx="570" cy="88" r="7" fill="#FFB347"/>
+  <circle cx="594" cy="88" r="7" fill="#3ED44A"/>
+  <rect x="618" y="76" width="224" height="24" rx="12" fill="#0A1228" stroke="#4A6FA5" stroke-opacity="0.30"/>
+  <text x="630" y="92" fill="#4A6FA5" fill-opacity="0.75" font-size="12" font-family="'Fira Code', monospace">~/shamith/developer.ts</text>
 
-    <rect x="474" y="88" width="206" height="42" rx="21" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.45"/>
-    <text x="505" y="115" fill="#E0F2FE" font-size="18" font-family="Inter, Arial, sans-serif">AI • Web • Cloud • Code</text>
+  <rect x="520" y="112" width="540" height="406" rx="13" fill="#060C1C" stroke="#1E2E56" stroke-width="1"/>
 
-    <g transform="translate(488 172)">
-      <circle cx="76" cy="76" r="70" fill="none" stroke="#1D4ED8" stroke-opacity="0.35" stroke-width="2">
-        <animateTransform attributeName="transform" type="rotate" from="0 76 76" to="360 76 76" dur="18s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="76" cy="76" r="48" fill="none" stroke="#A855F7" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="6 8">
-        <animateTransform attributeName="transform" type="rotate" from="360 76 76" to="0 76 76" dur="10s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="76" cy="76" r="24" fill="url(#accent)"/>
-      <circle cx="76" cy="6" r="6" fill="#67E8F9"/>
-      <circle cx="146" cy="76" r="7" fill="#F472B6"/>
-      <circle cx="76" cy="146" r="6" fill="#A78BFA"/>
-      <circle cx="6" cy="76" r="5" fill="#34D399"/>
-    </g>
+  <g font-family="'Fira Code', monospace" transform="translate(544 146)">
+    <text y="0" fill="#4A6FA5" font-size="14.5">// ⚡ Full-Stack Developer · GenAI · CP</text>
+    <text y="28" fill="#FF8C00" font-size="16.5">const <tspan fill="#FFD700">developer</tspan> = {</text>
+    <text y="56" fill="#E0CCA0" font-size="14.5">  name:      <tspan fill="#FF8C00">"Cheerla Shamith"</tspan><tspan fill="#88A">,</tspan></text>
+    <text y="82" fill="#E0CCA0" font-size="14.5">  role:      <tspan fill="#FFD700">"Full-Stack &amp; AI Systems Engineer"</tspan><tspan fill="#88A">,</tspan></text>
+    <text y="108" fill="#E0CCA0" font-size="14.5">  domains:   [<tspan fill="#7AABDC">"MERN Stack"</tspan><tspan fill="#CCC">, </tspan><tspan fill="#7AABDC">"AI Agents"</tspan><tspan fill="#CCC">, </tspan><tspan fill="#7AABDC">"DSA / CP"</tspan>]<tspan fill="#88A">,</tspan></text>
+    <text y="134" fill="#E0CCA0" font-size="14.5">  expertise: <tspan fill="#4ADE80">"Scalable APIs · Automation · System Design"</tspan><tspan fill="#88A">,</tspan></text>
+    <text y="160" fill="#E0CCA0" font-size="14.5">  ai_tools:  [<tspan fill="#FF8C00">"Ollama"</tspan><tspan fill="#CCC">, </tspan><tspan fill="#FF8C00">"Multi-Agent Pipelines"</tspan><tspan fill="#CCC">, </tspan><tspan fill="#FF8C00">"RAG"</tspan>]<tspan fill="#88A">,</tspan></text>
+    <text y="186" fill="#E0CCA0" font-size="14.5">  problems:  <tspan fill="#FFD700">2000+</tspan><tspan fill="#CCC">,  // competitive programming</tspan></text>
+    <text y="212" fill="#E0CCA0" font-size="14.5">  cgpa:      <tspan fill="#FFD700">9.38</tspan><tspan fill="#CCC">,   // computer science &amp; eng</tspan></text>
+    <text y="238" fill="#E0CCA0" font-size="14.5">  mindset:   <tspan fill="#FBBF24">"Build useful things. Ship fast."</tspan></text>
+    <text y="266" fill="#FF8C00" font-size="16.5">};</text>
+
+    <rect x="0" y="276" width="9" height="18" rx="2" fill="#FFD700">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <text y="316" fill="#4A6FA5" font-size="13.5">$ shamith.deploy({ quality: <tspan fill="#4ADE80">"production"</tspan> })</text>
+    <text y="340" fill="#4A6FA5" font-size="13.5">✔ Full-Stack &amp; AI systems online • Ready to build 🚀</text>
   </g>
 
-  <g transform="translate(900 90)">
-    <text x="0" y="44" fill="#E9D5FF" font-size="26" font-family="Inter, Arial, sans-serif" letter-spacing="4">PORTFOLIO README</text>
-    <text x="0" y="126" fill="#FFFFFF" font-size="70" font-weight="700" font-family="Inter, Arial, sans-serif">Cheerla</text>
-    <text x="0" y="198" fill="url(#accent)" font-size="76" font-weight="800" font-family="Inter, Arial, sans-serif">Shamith</text>
-    <text x="0" y="256" fill="#CBD5E1" font-size="28" font-family="Inter, Arial, sans-serif">Full-Stack Developer • Generative AI Engineer</text>
-    <text x="0" y="296" fill="#94A3B8" font-size="28" font-family="Inter, Arial, sans-serif">Competitive Programmer • Builder • Problem Solver</text>
+  <!-- COLUMN C: STATS & HIGHLIGHTS -->
+  <rect x="1081" y="46" width="519" height="514" fill="#040A1A"/>
+  <rect x="1081" y="46" width="519" height="514" fill="url(#dotGrid)"/>
 
-    <g transform="translate(0 338)">
-      <rect x="0" y="0" width="188" height="58" rx="18" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.5"/>
-      <rect x="206" y="0" width="186" height="58" rx="18" fill="#0F172A" stroke="#A855F7" stroke-opacity="0.5"/>
-      <rect x="410" y="0" width="214" height="58" rx="18" fill="#0F172A" stroke="#F472B6" stroke-opacity="0.5"/>
-      <text x="28" y="36" fill="#E2E8F0" font-size="24" font-family="Inter, Arial, sans-serif">MERN Systems</text>
-      <text x="232" y="36" fill="#E2E8F0" font-size="24" font-family="Inter, Arial, sans-serif">GenAI Workflows</text>
-      <text x="438" y="36" fill="#E2E8F0" font-size="24" font-family="Inter, Arial, sans-serif">2K+ Problems Solved</text>
-    </g>
+  <text x="1108" y="86" fill="#4A6FA5" font-size="11" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="3">QUICK STATS</text>
+  <rect x="1108" y="92" width="54" height="1.5" rx="1" fill="#FF8C00" fill-opacity="0.5"/>
+
+  <!-- Stat card 1 — Problems Solved -->
+  <rect x="1108" y="104" width="220" height="106" rx="16" fill="#070E24" stroke="#FF4500" stroke-opacity="0.42" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="1108" y="104" width="220" height="106" rx="16" fill="url(#blockStatA)"/>
+  <text x="1124" y="136" fill="#FF6B00" font-size="10.5" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="2">PROBLEMS SOLVED</text>
+  <text x="1124" y="184" fill="#FFD700" font-size="40" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" filter="url(#subtleGlow)">2000+</text>
+  <circle cx="1298" cy="134" r="15" fill="#FF4500" fill-opacity="0.16" stroke="#FF4500" stroke-opacity="0.35"/>
+  <g transform="translate(1288 124)">
+    <path d="M4 3H16V7C16 10.3 13.3 13 10 13C6.7 13 4 10.3 4 7V3Z" fill="#FF6B00"/>
+    <path d="M4 4.5H1.5C1.5 6.8 3.2 8.5 5.5 8.5V7C4 7 2.8 5.8 2.8 4.5H4V4.5Z" fill="#FF8C00"/>
+    <path d="M16 4.5H18.5C18.5 6.8 16.8 8.5 14.5 8.5V7C16 7 17.2 5.8 17.2 4.5H16V4.5Z" fill="#FF8C00"/>
+    <path d="M9 13H11V16H9V13Z" fill="#FF6B00"/>
+    <rect x="6" y="16" width="8" height="2.5" rx="1" fill="#FFD700"/>
+  </g>
+
+  <!-- Stat card 2 — CGPA -->
+  <rect x="1338" y="104" width="220" height="106" rx="16" fill="#070E24" stroke="#FFD700" stroke-opacity="0.38" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="1338" y="104" width="220" height="106" rx="16" fill="url(#blockStatB)"/>
+  <text x="1354" y="136" fill="#FFB300" font-size="10.5" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="2">ACADEMIC CGPA</text>
+  <text x="1354" y="184" fill="#FF8C00" font-size="40" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" filter="url(#subtleGlow)">9.38</text>
+  <circle cx="1528" cy="134" r="15" fill="#FFD700" fill-opacity="0.16" stroke="#FFD700" stroke-opacity="0.35"/>
+  <g transform="translate(1518 124)">
+    <path d="M10 3L2 7.2L10 11.4L18 7.2L10 3Z" fill="#FFD700"/>
+    <path d="M5.5 9.4V13.8C5.5 15.6 7.5 17 10 17C12.5 17 14.5 15.6 14.5 13.8V9.4L10 11.8L5.5 9.4Z" fill="#FF8C00"/>
+    <path d="M17 7.5V13.5" stroke="#FFD700" stroke-width="1.2" stroke-linecap="round"/>
+    <circle cx="17" cy="14" r="1.2" fill="#FFD700"/>
+  </g>
+
+  <!-- MAESTRO Highlight Block -->
+  <rect x="1108" y="224" width="450" height="114" rx="16" fill="#060E22" stroke="#FF8C00" stroke-opacity="0.38" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="1124" y="238" width="134" height="22" rx="11" fill="#0E1A3A" stroke="#FF8C00" stroke-opacity="0.55"/>
+  <text x="1136" y="253" fill="#FF8C00" font-size="10" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="1.5">FLAGSHIP PROJECT</text>
+  <rect x="1474" y="238" width="70" height="22" rx="11" fill="#0A1E1E" stroke="#34D399" stroke-opacity="0.45"/>
+  <circle cx="1487" cy="249" r="3.5" fill="#34D399">
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1496" y="253" fill="#34D399" font-size="10.5" font-family="'Libre Baskerville', Georgia, serif">Live</text>
+
+  <text x="1124" y="287" font-family="'Libre Baskerville', Georgia, serif">
+    <tspan fill="#FFD700" font-size="20" font-weight="700" filter="url(#subtleGlow)">MAESTRO</tspan>
+    <tspan dx="10" fill="#CBD5E1" font-size="14" font-style="italic">— YouTube Automation System</tspan>
+  </text>
+
+  <circle cx="1130" cy="315" r="4" fill="#FF8C00">
+    <animate attributeName="r" values="3.5;5;3.5" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1144" y="319" fill="#7E94B5" font-size="12" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">Multi-agent pipeline · Ollama · Local LLM Engine</text>
+
+  <!-- Primary Stack -->
+  <text x="1108" y="362" fill="#4A6FA5" font-size="11" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="3">PRIMARY STACK</text>
+  <g transform="translate(1108 374)">
+    <rect x="0" y="0" width="76" height="26" rx="13" fill="#0A1530" stroke="#FF8C00" stroke-opacity="0.5"/>
+    <text x="13" y="17" fill="#FF8C00" font-size="11.5" font-family="'Libre Baskerville', Georgia, serif">React.js</text>
+    <rect x="84" y="0" width="76" height="26" rx="13" fill="#0A1530" stroke="#FFD700" stroke-opacity="0.5"/>
+    <text x="96" y="17" fill="#FFD700" font-size="11.5" font-family="'Libre Baskerville', Georgia, serif">Node.js</text>
+    <rect x="168" y="0" width="88" height="26" rx="13" fill="#0A1530" stroke="#FF6B00" stroke-opacity="0.5"/>
+    <text x="180" y="17" fill="#FF6B00" font-size="11.5" font-family="'Libre Baskerville', Georgia, serif">MongoDB</text>
+    <rect x="264" y="0" width="74" height="26" rx="13" fill="#0A1530" stroke="#FFA040" stroke-opacity="0.5"/>
+    <text x="278" y="17" fill="#FFA040" font-size="11.5" font-family="'Libre Baskerville', Georgia, serif">Python</text>
+    <rect x="346" y="0" width="68" height="26" rx="13" fill="#0A1530" stroke="#4ADE80" stroke-opacity="0.5"/>
+    <text x="358" y="17" fill="#4ADE80" font-size="11.5" font-family="'Libre Baskerville', Georgia, serif">AI/ML</text>
+  </g>
+
+  <!-- Connect Buttons -->
+  <text x="1108" y="428" fill="#4A6FA5" font-size="11" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="3">CONNECT</text>
+  <g transform="translate(1108 438)">
+    <rect x="0" y="0" width="86" height="30" rx="15" fill="#070E24" stroke="#FF8C00" stroke-opacity="0.45"/>
+    <text x="13" y="19.5" fill="#FF8C00" font-size="12" font-family="'Libre Baskerville', Georgia, serif">Email</text>
+    <rect x="94" y="0" width="102" height="30" rx="15" fill="#070E24" stroke="#0A66C2" stroke-opacity="0.55"/>
+    <text x="108" y="19.5" fill="#5A9FE2" font-size="12" font-family="'Libre Baskerville', Georgia, serif">LinkedIn</text>
+    <rect x="204" y="0" width="102" height="30" rx="15" fill="#070E24" stroke="#FF4545" stroke-opacity="0.50"/>
+    <text x="218" y="19.5" fill="#FF6060" font-size="12" font-family="'Libre Baskerville', Georgia, serif">YouTube</text>
+    <rect x="314" y="0" width="112" height="30" rx="15" fill="#070E24" stroke="#E4405F" stroke-opacity="0.50"/>
+    <text x="328" y="19.5" fill="#FF7090" font-size="12" font-family="'Libre Baskerville', Georgia, serif">Instagram</text>
+  </g>
+
+  <text x="1108" y="504" fill="#4B638A" font-size="12" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">"Build useful things. Build them well. Make them unforgettable."</text>
+
+  <rect x="0" y="556" width="1600" height="4" fill="url(#topBar)" opacity="0.65"/>
+
+  <g opacity="0.45">
+    <circle cx="496" cy="140" r="2.5" fill="#FF8C00">
+      <animate attributeName="cy" values="140;126;140" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1078" cy="310" r="3" fill="#FFD700">
+      <animate attributeName="cy" values="310;294;310" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1596" cy="200" r="2" fill="#FF6B00">
+      <animate attributeName="cy" values="200;186;200" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="8" cy="360" r="2.5" fill="#4A6FA5">
+      <animate attributeName="cy" values="360;346;360" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
   </g>
 </svg>

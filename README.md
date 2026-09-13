@@ -11,7 +11,7 @@
 </p>
 
 <h1 align="center">💫 Cheerla Shamith</h1>
-<h3 align="center">Full-Stack Developer • Generative AI Engineer • Competitive Programmer • Builder from India</h3>
+<h3 align="center">Full-Stack Developer • AI Agent Systems • Competitive Programmer • Builder from India 🇮🇳</h3>
 
 <p align="center">
   <a href="mailto:chshamith888@gmail.com">
@@ -32,45 +32,116 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cheerlashamith&style=for-the-badge&color=0ea5e9" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/CGPA-9.38%2B-8b5cf6?style=for-the-badge" alt="CGPA" />
+  <img src="https://komarev.com/ghpvc/?username=cheerlashamith&style=for-the-badge&color=ff8c00" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/CGPA-9.38%2B-ff8c00?style=for-the-badge" alt="CGPA" />
   <img src="https://img.shields.io/badge/Problems%20Solved-2000%2B-22c55e?style=for-the-badge" alt="Problems Solved" />
+  <img src="https://img.shields.io/badge/Current%20Streak-90%20Days%20🔥-f59e0b?style=for-the-badge" alt="Current Streak" />
   <img src="https://img.shields.io/badge/Open%20to-Collaboration-f59e0b?style=for-the-badge" alt="Open to Collaboration" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0ea5e9&height=100&section=header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=ff8c00&height=100&section=header" width="100%" />
 </p>
 
-## 📊 GitHub Statistics
+## 📊 GitHub Statistics & Streak Activity
 
 <!-- Auto-generated file: github-stats-animated.svg updates via .github/workflows/update-github-stats.yml -->
 <p align="center">
-  <img src="./github-stats-animated.svg" alt="Animated GitHub Statistics" width="100%" />
+  <img src="./github-stats-animated.svg" alt="Animated GitHub Statistics & Streak" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cheerlashamith&theme=tokyo-night&hide_border=true&area=true&cache_seconds=86400" alt="Contribution Graph" width="98%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cheerlashamith&theme=react&hide_border=true&area=true&cache_seconds=86400" alt="Contribution Graph" width="98%" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0ea5e9&height=100&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=ff8c00&height=100&section=footer" width="100%" />
 </p>
+
+---
+
+## 🛠️ Tech Arsenal & Core Capabilities
+
+<table>
+  <tr>
+    <td width="22%" align="center"><b>🤖 AI &amp; Agents</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+      <img src="https://img.shields.io/badge/Multi--Agent%20Systems-FF6B00?style=for-the-badge&logo=openai&logoColor=white" alt="Multi-Agent Systems" />
+      <img src="https://img.shields.io/badge/YouTube%20Automation-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Automation" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>💻 Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🎨 Frontend &amp; UI</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+      <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🧩 Backend &amp; APIs</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/REST%20APIs-FF6B00?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
+      <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🗄️ Databases &amp; Cloud</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🧰 Tools &amp; Data</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+      <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🚀 About Me
 
-Hi, I'm **Cheerla Shamith** — a passionate **Full-Stack Developer**, **Generative AI Engineer**, and **Competitive Programmer** who loves building products that are scalable, useful, modern, and visually polished.
+Hi, I'm **Cheerla Shamith** — a passionate **Full-Stack Developer**, **AI Agent Systems Engineer**, and **Competitive Programmer** who loves engineering products that are scalable, autonomous, reliable, and visually captivating.
 
-I enjoy combining:
-- robust engineering
-- creative product thinking
-- elegant UI/UX
-- backend architecture
-- AI-powered workflows
-
-into real-world applications that solve meaningful problems.
+I combine:
+- **Autonomous Multi-Agent Systems & AI Orchestration**
+- **YouTube Automation Workflows** (Powered by Local LLMs & Ollama)
+- **Production-Ready Full-Stack Architecture** (MERN, FastAPI, Cloud)
+- **High-Performance Algorithmic Engineering** (2000+ Problems Solved)
+- **Clean Developer Workflows & Productivity Utilities**
 
 <table>
 <tr>
@@ -79,22 +150,22 @@ into real-world applications that solve meaningful problems.
 ### 🌟 Core Identity
 
 - 🎓 Pursuing **B.Tech in Computer Science & Engineering** at **SASI Institute of Technology & Engineering**
-- 📈 Maintaining a **CGPA of 9.38+**
-- 🧠 Strong interest in **system design, AI systems, and scalable backend architecture**
-- 🛠️ Building modern **MERN, AI, and automation-first products**
+- 📈 Maintaining an academic **CGPA of 9.38+**
+- 🤖 Deep expertise in **AI Agents, Multi-Agent Systems, and Ollama integration**
+- 🛠️ Building modern, autonomous **MERN, GenAI, and Workflow platforms**
 - ⚡ Solved **2000+ coding problems** across competitive programming platforms
-- 🎯 Focused on turning ambitious ideas into polished products
+- 🎯 Focused on turning ambitious ideas into polished, autonomous systems
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧭 Current Direction
 
-- 🔭 Building **MeetMinds** — Offline AI Meeting Intelligence Platform
-- 🤖 Exploring **AI Agents, workflow automation, and prompt engineering research**
-- 🌱 Learning **advanced generative AI, Docker, cloud deployments, and scalable backend patterns**
-- 🤝 Looking to collaborate on **Open Source, AI/ML apps, Developer Tools, and Full-Stack products**
-- 💬 Ask me about **React.js, Node.js, Express.js, MongoDB, Python, REST APIs, Generative AI, and Competitive Programming**
+- 🚀 Building **MAESTRO** — Autonomous YouTube Automation System powered by Multi-Agent Workflows & Ollama
+- 🤖 Researching **Autonomous Tool Calling, Agent Reflection, and low-latency RAG pipelines**
+- 🌱 Exploring **Edge AI, quantized local LLM inference, Docker clusters, and distributed architecture**
+- 🤝 Looking to collaborate on **Open Source, AI/ML platforms, Developer Tools, and Full-Stack systems**
+- 💬 Ask me about **AI Agents, Ollama, React, Node.js, Express, MongoDB, Python, and DSA**
 
 </td>
 </tr>
@@ -104,6 +175,12 @@ into real-world applications that solve meaningful problems.
   <img src="./divider-wave.svg" alt="divider" width="100%" />
 </p>
 
+## 💻 Interactive Developer Workstation
+
+<p align="center">
+  <img src="./code-terminal.svg" alt="Developer Workstation Terminal" width="94%" />
+</p>
+
 ## ✨ Developer Snapshot
 
 ```yaml
@@ -111,255 +188,55 @@ name: Cheerla Shamith
 location: India
 roles:
   - Full-Stack Developer
-  - Generative AI Engineer
+  - AI Agent & Generative AI Engineer
   - Competitive Programmer
 focus:
-  - Scalable Web Applications
-  - AI-Powered Platforms
-  - Automation Systems
-  - Developer Productivity Tools
+  - Autonomous Multi-Agent Systems
+  - YouTube Automation Workflows (MAESTRO)
+  - Ollama & Local LLM Integration
+  - Scalable Full-Stack Web Applications
 strengths:
-  - Problem Solving
-  - Product Thinking
-  - Rapid Prototyping
-  - Clean Implementation
-  - Modern UI Composition
-currently_building:
-  - MeetMinds
-  - AI Agent Workflows
-  - MERN + GenAI Integrations
-mindset: "Build useful things. Build them well. Make them unforgettable."
+  - Agentic System Architecture
+  - Algorithmic Problem Solving (2000+ Solved)
+  - Rapid Prototyping & System Design
+  - Clean MERN Implementations
+flagship_project:
+  name: "MAESTRO"
+  type: "YouTube Automation System"
+  runtime: "Ollama + Multi-Agents"
+mindset: "Build useful things. Ship with velocity. Make them unforgettable."
 ```
 
-<p align="center">
-  <img src="./code-terminal.svg" alt="Creative Terminal Vector" width="92%" />
-</p>
-
-## 🧠 What I Love Building
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 🌐 Full-Stack Products
-
-- MERN applications
-- dashboards
-- admin panels
-- authentication systems
-- REST API ecosystems
-- real-world SaaS workflows
-
-</td>
-<td width="33%" valign="top">
-
-### 🤖 AI-Driven Systems
-
-- AI agent orchestration
-- prompt pipelines
-- retrieval workflows
-- automation tools
-- intelligent assistants
-- content and decision systems
-
-</td>
-<td width="33%" valign="top">
-
-### ⚙️ Engineering Systems
-
-- scalable backends
-- modular architecture
-- cloud-ready services
-- clean API design
-- data-driven products
-- developer productivity tools
-
-</td>
-</tr>
-</table>
-
 ---
 
-## 🚧 Current Focus Areas
-
-### 🔭 Currently Working On
-
-- MeetMinds — Offline AI Meeting Intelligence Platform
-- AI Agents & Workflow Automation
-- Prompt Engineering Research
-- Full-Stack MERN Applications with GenAI Integrations
-
-### 👯 Looking to Collaborate On
-
-- Open Source Projects
-- AI/ML Applications
-- Full-Stack Web Development
-- Developer Tools & Productivity Platforms
-
-### 🤝 Looking for Help With
-
-- Advanced System Design
-- Large-Scale AI Systems
-- Open Source Contributions
-- Cloud Infrastructure & DevOps
-
-### 🌱 Currently Learning
-
-- AI Agents & Multi-Agent Systems
-- Advanced Generative AI
-- Docker & Cloud Deployments
-- Scalable Backend Architecture
-
-<p align="center">
-  <img src="./ai-orbit.svg" alt="AI Orbit Vector" width="82%" />
-</p>
-
----
-
-## 🛠️ Tech Arsenal
-
-<details open>
-<summary><b>💻 Languages</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
-</p>
-</details>
-
-<details open>
-<summary><b>🎨 Frontend & UI</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
-</p>
-</details>
-
-<details open>
-<summary><b>🧩 Backend & APIs</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB" alt="Express.js" />
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/REST%20APIs-0F172A?style=for-the-badge&logo=fastapi&logoColor=22d3ee" alt="REST APIs" />
-</p>
-</details>
-
-<details open>
-<summary><b>🗄️ Databases & BaaS</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-</p>
-</details>
-
-<details open>
-<summary><b>☁️ Cloud, DevOps & Platforms</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
-  <img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Netlify-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Netlify" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-</p>
-</details>
-
-<details open>
-<summary><b>🧠 AI / ML / Data</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit Learn" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=plotly&logoColor=black" alt="Matplotlib" />
-</p>
-</details>
-
-<details open>
-<summary><b>🧰 Tools & Workflow</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/FFmpeg-171717?style=for-the-badge&logo=ffmpeg&logoColor=5cb85c" alt="FFmpeg" />
-  <img src="https://img.shields.io/badge/Windows_Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal" />
-  <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" />
-</p>
-</details>
-
----
-
-## 🏗️ Engineering Mindset
-
-I like building software that is:
-- clean in structure
-- practical in purpose
-- fast in execution
-- scalable by design
-- pleasant to use
-- easy to extend
-
-### My preferred process
-
-1. Understand the real problem deeply.
-2. Design the simplest reliable architecture.
-3. Build a strong functional version quickly.
-4. Refine UI, developer experience, and edge cases.
-5. Optimize for maintainability and scale.
-
----
-
-## 📌 Featured Work & Areas of Interest
+## 📌 Featured Work & Flagship Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 MeetMinds
+### 🚀 MAESTRO
 
-**Offline AI Meeting Intelligence Platform**
+**Autonomous YouTube Automation System**
 
-A product idea focused on extracting value from conversations by combining AI, structured workflows, and product-thinking.
-
-Possible capability areas:
-- meeting transcription workflows
-- summarization pipelines
-- action-item extraction
-- team productivity insights
-- offline or privacy-aware intelligence systems
+An end-to-end multi-agent pipeline designed to automate high-quality content creation:
+- 🤖 **Multi-Agent Architecture**: Dedicated Planner, Scriptwriter, and Video Assembly agents
+- 🧠 **Local LLM Intelligence**: Powered by Ollama for offline, zero-latency execution
+- ⚙️ **Workflow Automation**: Automated topic research, script authoring, and lifecycle management
+- 🌐 **MERN Observability Dashboard**: Full telemetry and control interface
 
 </td>
 <td width="50%" valign="top">
 
-### 🤖 AI Agents & Automation
+### 🤖 AI Agents & Autonomous Systems
 
-A research and experimentation track centered around:
-- multi-agent flows
-- prompt chaining
-- workflow automation
-- retrieval-augmented intelligence
-- practical AI tool building
+**Research & Engineering Track**
+
+Designing next-generation intelligent agent systems:
+- 🧩 **Multi-Agent Orchestration**: Goal planning, task decomposition, and inter-agent comms
+- ⚡ **Local LLMs & Ollama**: Offline agent reasoning without cloud API dependency
+- 🛠️ **Autonomous Tool Calling**: Integrating code runners, web tools, and database queries
+- 📊 **RAG & Memory Systems**: Contextual intelligence and long-term vector recall
 
 </td>
 </tr>
@@ -368,28 +245,34 @@ A research and experimentation track centered around:
 
 ### 🌐 MERN + GenAI Applications
 
-I enjoy creating products that merge:
-- modern frontend experiences
-- powerful backend systems
-- database-driven workflows
-- AI-powered assistance
-- scalable API design
+**Production-Grade Web Platforms**
+
+Combining reactive interfaces with intelligent backends:
+- ⚡ Modern React.js frontends with custom design systems
+- 🛡️ Scalable Node.js & Express.js REST architectures
+- 🗄️ Robust MongoDB schemas with optimal indexing
+- 🔌 Seamless AI agent integration for smart workflows
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧩 Developer Productivity Tools
 
-I'm interested in tools that help developers:
-- automate repetitive work
-- build faster
-- debug smarter
-- manage workflows better
-- ship polished products quickly
+**Automation & Engineering Utilities**
+
+Building tools that eliminate developer friction:
+- ⚡ Shell scripts & workflow automation
+- 🛠️ Pipeline orchestrators and batch processing engines
+- 🔍 Fast debugging tools and automated testing harnesses
+- 🚀 CLI utilities for rapid project scaffolding
 
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="./ai-orbit.svg" alt="AI Orbit Vector" width="82%" />
+</p>
 
 ---
 
@@ -397,34 +280,31 @@ I'm interested in tools that help developers:
 
 - 🎯 Solved **2000+ coding problems** across competitive programming platforms
 - 📚 Strong foundation in **data structures and algorithms**
-- 🧠 Comfortable moving between **frontend, backend, and AI workflow development**
-- 🚀 Passionate about creating **real products**, not just isolated demos
-- ✨ Interested in combining **technical depth with design quality**
+- 🤖 Creator of **MAESTRO** — YouTube Automation System with Multi-Agent workflows
+- 🧠 Deep focus on **AI Agents, Ollama, and full-stack MERN architecture**
+- ✨ Passionate about **clean code, exceptional design, and high-performance software**
 
 ---
 
 ## 💻 Competitive Programming Spirit
 
 Competitive programming strengthened my:
-- problem-solving speed
-- algorithmic thinking
-- debugging discipline
-- optimization mindset
-- confidence with constraints and edge cases
+- ⚡ **Problem-solving speed** under tight time constraints
+- 🧩 **Algorithmic thinking** and optimal complexity choices
+- 🔍 **Debugging discipline** and deep edge-case awareness
+- 🚀 **Optimization mindset** for memory and runtime efficiency
 
-That foundation helps me build better products because I approach software with both:
-- engineering clarity
-- performance awareness
+That foundation helps me build better products because I approach software with both **engineering clarity** and **performance awareness**.
 
 ---
 
 ## ✍️ Personal Philosophy
 
-> Build things that matter.  
+> *"Build things that matter.  
 > Make them elegant.  
 > Make them useful.  
 > Keep learning fast.  
-> Keep shipping faster.
+> Keep shipping faster."*
 
 ---
 

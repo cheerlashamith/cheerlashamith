@@ -1,47 +1,85 @@
 <svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111E"/>
-      <stop offset="1" stop-color="#130C2B"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap');
+    </style>
+    <linearGradient id="orbitBg" x1="0" y1="0" x2="900" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#080F26"/>
+      <stop offset="1" stop-color="#0E1632"/>
     </linearGradient>
-    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#67E8F9"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#F472B6"/>
+    <linearGradient id="fireCore" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF4500"/>
+      <stop offset="0.4" stop-color="#FF8C00"/>
+      <stop offset="0.8" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#FFA500"/>
     </linearGradient>
-    <filter id="glow">
-      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#8B5CF6" flood-opacity="0.45"/>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B00"/>
+      <stop offset="0.3" stop-color="#FFD700"/>
+      <stop offset="0.7" stop-color="#FF8C00"/>
+      <stop offset="1" stop-color="#FF4500"/>
+    </linearGradient>
+    <filter id="coreGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="22" flood-color="#FF6B00" flood-opacity="0.8"/>
     </filter>
+    <filter id="nodeGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#FFD700" flood-opacity="0.7"/>
+    </filter>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.8" fill="#4A6FA5" fill-opacity="0.08"/>
+    </pattern>
   </defs>
-  <rect width="900" height="600" rx="28" fill="url(#bg)"/>
-  <g transform="translate(450 300)" filter="url(#glow)">
-    <circle r="170" stroke="#1D4ED8" stroke-opacity="0.35" stroke-width="2">
-      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="26s" repeatCount="indefinite"/>
+
+  <rect width="900" height="600" rx="28" fill="url(#orbitBg)"/>
+  <rect width="900" height="600" rx="28" fill="url(#dotGrid)"/>
+  <rect x="1" y="1" width="898" height="598" rx="27" stroke="#FF8C00" stroke-opacity="0.25" stroke-width="1.2"/>
+
+  <!-- Orbit System Centered Vertically -->
+  <g transform="translate(450 315)" filter="url(#coreGlow)">
+    <!-- Outer ring -->
+    <circle r="176" stroke="#4A6FA5" stroke-opacity="0.35" stroke-width="1.8">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="28s" repeatCount="indefinite"/>
     </circle>
-    <circle r="122" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="12 10">
+    <!-- Dashed mid ring -->
+    <circle r="126" stroke="#FF8C00" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="10 8">
       <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <ellipse rx="240" ry="86" stroke="#A78BFA" stroke-opacity="0.35" stroke-width="2">
+    <!-- Ellipse 1 (Horizontal) -->
+    <ellipse rx="240" ry="86" stroke="#FFD700" stroke-opacity="0.40" stroke-width="1.8">
       <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="16s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse rx="240" ry="86" transform="rotate(60)" stroke="#F472B6" stroke-opacity="0.28" stroke-width="2">
-      <animateTransform attributeName="transform" type="rotate" from="60 0 0" to="420 0 0" dur="19s" repeatCount="indefinite"/>
+    <!-- Ellipse 2 (60deg) -->
+    <ellipse rx="240" ry="86" transform="rotate(60)" stroke="#FF6B00" stroke-opacity="0.35" stroke-width="1.8">
+      <animateTransform attributeName="transform" type="rotate" from="60 0 0" to="420 0 0" dur="20s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse rx="240" ry="86" transform="rotate(120)" stroke="#34D399" stroke-opacity="0.28" stroke-width="2">
-      <animateTransform attributeName="transform" type="rotate" from="120 0 0" to="480 0 0" dur="22s" repeatCount="indefinite"/>
+    <!-- Ellipse 3 (120deg) -->
+    <ellipse rx="240" ry="86" transform="rotate(120)" stroke="#F59E0B" stroke-opacity="0.35" stroke-width="1.8">
+      <animateTransform attributeName="transform" type="rotate" from="120 0 0" to="480 0 0" dur="24s" repeatCount="indefinite"/>
     </ellipse>
-    <circle r="54" fill="url(#core)"/>
-    <circle cx="0" cy="-170" r="10" fill="#67E8F9"/>
-    <circle cx="170" cy="0" r="10" fill="#F472B6"/>
-    <circle cx="0" cy="170" r="10" fill="#A78BFA"/>
-    <circle cx="-170" cy="0" r="10" fill="#34D399"/>
-    <circle cx="180" cy="0" r="10" fill="#F472B6">
+
+    <!-- Center sun / core -->
+    <circle r="56" fill="url(#fireCore)"/>
+    <circle r="44" fill="#0A0702" fill-opacity="0.2"/>
+    <circle r="22" fill="#FFFFFF" fill-opacity="0.25"/>
+
+    <!-- Orbital nodes -->
+    <circle cx="0" cy="-176" r="9" fill="#FFD700" filter="url(#nodeGlow)"/>
+    <circle cx="176" cy="0" r="9" fill="#FF8C00" filter="url(#nodeGlow)"/>
+    <circle cx="0" cy="176" r="9" fill="#FF4500" filter="url(#nodeGlow)"/>
+    <circle cx="-176" cy="0" r="9" fill="#FBBF24" filter="url(#nodeGlow)"/>
+
+    <!-- Revolving planets -->
+    <circle cx="186" cy="0" r="10" fill="#FFD700" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="0" cy="-124" r="8" fill="#67E8F9">
+    <circle cx="0" cy="-128" r="8" fill="#FF6B00" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="6s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <text x="450" y="84" fill="#E5E7EB" text-anchor="middle" font-size="36" font-family="Inter, Arial, sans-serif" font-weight="700">AI • SYSTEMS • AUTOMATION • SCALE</text>
-  <text x="450" y="532" fill="#94A3B8" text-anchor="middle" font-size="22" font-family="Inter, Arial, sans-serif">Creative vector orbit illustration for your README showcase</text>
+
+  <!-- Clean, Perfectly Sized Header Inside Bounds -->
+  <text x="450" y="60" fill="url(#titleGrad)" text-anchor="middle" font-size="15" font-family="'Libre Baskerville', Georgia, serif" font-weight="700" letter-spacing="2">
+    AI AGENTS • MULTI-AGENT SYSTEMS • AUTOMATION
+  </text>
 </svg>
