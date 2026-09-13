@@ -3,36 +3,24 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700;800&amp;display=swap');
 
-      /* Zero-lag discrete frames with visibility:hidden to guarantee zero ghosting */
-      .f1 { animation: a1 6s infinite; }
-      .f2 { animation: a2 6s infinite; }
-      .f3 { animation: a3 6s infinite; }
-      .f4 { animation: a4 6s infinite; }
-      .fFinal { animation: aFinal 6s infinite; }
+      /* Ultra-smooth GPU transitions: 3 clean stages with zero frame drops */
+      .stage1 { animation: s1 6s infinite; }
+      .stage2 { animation: s2 6s infinite; }
+      .stageFinal { animation: sFinal 6s infinite; }
 
-      @keyframes a1 {
-        0%, 3.99% { opacity: 1; visibility: visible; }
-        4%, 100%  { opacity: 0; visibility: hidden; }
+      @keyframes s1 {
+        0%, 7.9%   { opacity: 1; }
+        8%, 100%   { opacity: 0; }
       }
-      @keyframes a2 {
-        0%, 3.99%  { opacity: 0; visibility: hidden; }
-        4%, 7.99%  { opacity: 1; visibility: visible; }
-        8%, 100%   { opacity: 0; visibility: hidden; }
+      @keyframes s2 {
+        0%, 7.9%   { opacity: 0; }
+        8%, 15.9%  { opacity: 1; }
+        16%, 100%  { opacity: 0; }
       }
-      @keyframes a3 {
-        0%, 7.99%  { opacity: 0; visibility: hidden; }
-        8%, 11.99% { opacity: 1; visibility: visible; }
-        12%, 100%  { opacity: 0; visibility: hidden; }
-      }
-      @keyframes a4 {
-        0%, 11.99% { opacity: 0; visibility: hidden; }
-        12%, 15.99% { opacity: 1; visibility: visible; }
-        16%, 100%  { opacity: 0; visibility: hidden; }
-      }
-      @keyframes aFinal {
-        0%, 15.99% { opacity: 0; visibility: hidden; }
-        16%, 94.99% { opacity: 1; visibility: visible; }
-        95%, 100%  { opacity: 0; visibility: hidden; }
+      @keyframes sFinal {
+        0%, 15.9%  { opacity: 0; }
+        16%, 95%   { opacity: 1; }
+        95.1%, 100%{ opacity: 0; }
       }
 
       .cursorBlink { animation: blinkCur 0.8s step-start infinite; }
@@ -60,19 +48,10 @@
       <stop offset="50%" stop-color="#FFD700"/>
       <stop offset="100%" stop-color="#FF6B00"/>
     </linearGradient>
-
-    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#FF8C00" flood-opacity="0.6"/>
-    </filter>
-
-    <pattern id="dotNet" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.7" fill="#4B6B94" fill-opacity="0.12"/>
-    </pattern>
   </defs>
 
-  <!-- Background Base -->
+  <!-- Background Base (Clean deep space navy, zero CPU pattern load) -->
   <rect width="1200" height="150" rx="22" fill="#050816"/>
-  <rect width="1200" height="150" rx="22" fill="url(#dotNet)"/>
   <rect x="1" y="1" width="1198" height="148" rx="21" stroke="url(#boxBorder)" stroke-width="1.4" class="borderPulse"/>
 
   <!-- Top Cyber Status Pill -->
@@ -88,30 +67,20 @@
     <text x="1164" y="80" text-anchor="end">[ PORT: 11434 ]</text>
   </g>
 
-  <!-- Centered Cyber Decryption Display -->
+  <!-- Centered Cyber Decryption Display (Lightweight, GPU-Accelerated) -->
   <g font-family="'Fira Code', 'Courier New', monospace" font-size="44" font-weight="800" text-anchor="middle" transform="translate(600 95)">
-    <!-- Frame 1: Raw Binary / Hex Hash -->
-    <text class="f1" fill="#475569" letter-spacing="2">
+    <!-- Stage 1: Raw Binary Hash -->
+    <text class="stage1" fill="#64748B" letter-spacing="2">
       [ 01000011 01001000 0x7F ]
     </text>
 
-    <!-- Frame 2: Heavy Glitch Scramble -->
-    <text class="f2" fill="#F59E0B" letter-spacing="2">
+    <!-- Stage 2: Glitch Scramble -->
+    <text class="stage2" fill="#F59E0B" letter-spacing="2">
       [ C#33RL@ $H@M!7H_ ]
     </text>
 
-    <!-- Frame 3: Resolving Near-Match -->
-    <text class="f3" fill="#FF8C00" letter-spacing="2">
-      [ CHEERL4 SH4M1TH ]
-    </text>
-
-    <!-- Frame 4: Pre-Final Clean -->
-    <text class="f4" fill="#FFD700" letter-spacing="2">
-      [ CHEERLA SHAMITH ]
-    </text>
-
-    <!-- Frame 5 (Final Stable State): Gorgeous Fire Gradient + Blinking Cursor -->
-    <text class="fFinal" filter="url(#goldGlow)" letter-spacing="2">
+    <!-- Stage 3 (Final Stable State): Gorgeous Fire Gradient + Blinking Cursor -->
+    <text class="stageFinal" letter-spacing="2">
       <tspan fill="#FF8C00">[ </tspan><tspan fill="url(#fireText)">CHEERLA SHAMITH</tspan><tspan fill="#FFD700" class="cursorBlink"> _</tspan><tspan fill="#FF8C00"> ]</tspan>
     </text>
   </g>

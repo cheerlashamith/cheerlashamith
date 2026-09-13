@@ -51,10 +51,6 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cheerlashamith&theme=react&hide_border=true&area=true&cache_seconds=86400" alt="Contribution Graph" width="98%" />
-</p>
-
-<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=ff8c00&height=100&section=footer" width="100%" />
 </p>
 

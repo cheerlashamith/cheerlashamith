@@ -1,9 +1,9 @@
 <svg width="1200" height="170" viewBox="0 0 1200 170" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Fira+Code:wght@500;600;700&amp;display=swap');
 
-      /* Smooth pulse-blink with minimum opacity so cursor is always grounded and elegant */
+      /* Smooth pulse-blink so cursor is always grounded, stylish, and never flickers harshly */
       .typingCursor {
         animation: cursorBlinkAnim 0.8s ease-in-out infinite;
       }
@@ -31,22 +31,22 @@
       <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#FFD700" flood-opacity="0.85"/>
     </filter>
 
-    <!-- Clip 1: Line 1 reveal (width: 0 -> 760px) -->
+    <!-- Clip 1: Line 1 reveal (width: 0 -> 820px) -->
     <clipPath id="revealOne">
       <rect x="0" y="0" width="0" height="60">
         <animate attributeName="width" 
-                 values="0;0;760;760;760;760;760;0;0" 
+                 values="0;0;820;820;820;820;820;0;0" 
                  keyTimes="0;0.03;0.20;0.28;0.48;0.88;0.96;0.99;1" 
                  dur="10s" 
                  repeatCount="indefinite"/>
       </rect>
     </clipPath>
 
-    <!-- Clip 2: Line 2 reveal (width: 0 -> 800px) -->
+    <!-- Clip 2: Line 2 reveal (width: 0 -> 760px) -->
     <clipPath id="revealTwo">
       <rect x="0" y="65" width="0" height="60">
         <animate attributeName="width" 
-                 values="0;0;0;0;800;800;800;0;0" 
+                 values="0;0;0;0;760;760;760;0;0" 
                  keyTimes="0;0.03;0.20;0.30;0.48;0.88;0.96;0.99;1" 
                  dur="10s" 
                  repeatCount="indefinite"/>
@@ -65,25 +65,25 @@
     <circle cx="22" cy="66" r="4" fill="#34D399"/>
   </g>
 
-  <!-- Text Block & Unified Single Cursor -->
-  <g transform="translate(108 36)" font-family="'Fira Code', 'Cascadia Code', 'Consolas', monospace" font-size="27">
-    <!-- Line 1: Strictly locked to 760px textLength -->
-    <text x="0" y="36" font-weight="700" fill="#F8FAFC" textLength="760" lengthAdjust="spacing" clip-path="url(#revealOne)">Building scalable web apps • AI systems • CP builder</text>
+  <!-- Text Block in Libre Baskerville & Unified Cursor -->
+  <g transform="translate(108 36)">
+    <!-- Line 1: Libre Baskerville Bold, locked to 820px -->
+    <text x="0" y="38" font-family="'Libre Baskerville', Georgia, serif" font-size="26" font-weight="700" fill="#F8FAFC" textLength="820" lengthAdjust="spacing" clip-path="url(#revealOne)">Building scalable web apps • AI systems • CP builder</text>
 
-    <!-- Line 2: Strictly locked to 800px textLength -->
-    <text x="0" y="98" font-weight="600" fill="#FFB300" textLength="800" lengthAdjust="spacing" clip-path="url(#revealTwo)">Architecting MAESTRO with Ollama, agents &amp; scalable MERN</text>
+    <!-- Line 2: Libre Baskerville Bold Italic, locked to 760px -->
+    <text x="0" y="100" font-family="'Libre Baskerville', Georgia, serif" font-size="25" font-weight="700" font-style="italic" fill="#FFB300" textLength="760" lengthAdjust="spacing" clip-path="url(#revealTwo)">Architecting Multi-Agent Systems &amp; Automation.</text>
 
-    <!-- UNIFIED DEVELOPER CURSOR: Types Line 1, blinks, jumps to Line 2, types Line 2, blinks, repeats -->
-    <rect class="typingCursor" width="3.5" height="32" rx="1" fill="#FFD700" filter="url(#cursorGlow)">
-      <!-- Cursor X coordinate: perfectly tracks text reveals, never overshoots -->
+    <!-- UNIFIED DEVELOPER CURSOR: Perfectly stops at 820 on Line 1 and 760 on Line 2 -->
+    <rect class="typingCursor" width="3.5" height="30" rx="1" fill="#FFD700" filter="url(#cursorGlow)">
+      <!-- Cursor X coordinate: travels to exactly 820 on line 1, then to exactly 760 on line 2 -->
       <animate attributeName="x" 
-               values="0;0;760;760;0;800;800;800;0;0" 
+               values="0;0;820;820;0;760;760;760;0;0" 
                keyTimes="0;0.03;0.20;0.28;0.30;0.48;0.88;0.96;0.99;1" 
                dur="10s" 
                repeatCount="indefinite"/>
-      <!-- Cursor Y coordinate: moves from Line 1 (y=10) to Line 2 (y=72) -->
+      <!-- Cursor Y coordinate: line 1 (y=13) to line 2 (y=75) -->
       <animate attributeName="y" 
-               values="10;10;10;10;72;72;72;72;10;10" 
+               values="13;13;13;13;75;75;75;75;13;13" 
                keyTimes="0;0.03;0.20;0.28;0.30;0.48;0.88;0.96;0.99;1" 
                dur="10s" 
                repeatCount="indefinite"/>
