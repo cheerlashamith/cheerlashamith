@@ -32,11 +32,11 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cheerlashamith&style=for-the-badge&color=ff8c00" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/CGPA-9.38%2B-ff8c00?style=for-the-badge" alt="CGPA" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-2000%2B-22c55e?style=for-the-badge" alt="Problems Solved" />
-  <img src="https://img.shields.io/badge/Current%20Streak-90%20Days%20🔥-f59e0b?style=for-the-badge" alt="Current Streak" />
-  <img src="https://img.shields.io/badge/Open%20to-Collaboration-f59e0b?style=for-the-badge" alt="Open to Collaboration" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=cheerlashamith&label=PROFILE%20VIEWS&labelColor=%23081432&countColor=%23ff8c00&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/CGPA-9.38%2B-ff8c00?style=for-the-badge&labelColor=081432" alt="CGPA" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-2000%2B-22c55e?style=for-the-badge&labelColor=081432" alt="Problems Solved" />
+  <img src="https://img.shields.io/badge/Current%20Streak-90%20Days%20🔥-f59e0b?style=for-the-badge&labelColor=081432" alt="Current Streak" />
+  <img src="https://img.shields.io/badge/Open%20to-Collaboration-f59e0b?style=for-the-badge&labelColor=081432" alt="Open to Collaboration" />
 </p>
 
 <p align="center">
