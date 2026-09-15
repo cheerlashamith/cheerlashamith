@@ -14,12 +14,6 @@
         0%, 100% { stroke-opacity: 0.35; }
         50%      { stroke-opacity: 0.85; }
       }
-
-      .cursorBlink { animation: blink 0.9s step-start infinite; }
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50%      { opacity: 0; }
-      }
     </style>
 
     <linearGradient id="pageBg" x1="0" y1="0" x2="0" y2="580" gradientUnits="userSpaceOnUse">
@@ -48,7 +42,7 @@
       <stop offset="100%" stop-color="#FF4500"/>
     </linearGradient>
 
-    <linearGradient id="cardFrame" x1="0" y1="0" x2="720" y2="490" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cardFrame" x1="0" y1="0" x2="726" y2="498" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#FF4500"/>
       <stop offset="50%" stop-color="#FFD700"/>
       <stop offset="100%" stop-color="#FF8C00"/>
@@ -62,13 +56,13 @@
     </linearGradient>
 
     <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#08112C"/>
-      <stop offset="100%" stop-color="#050A1C"/>
+      <stop offset="0%" stop-color="#0A1536"/>
+      <stop offset="100%" stop-color="#060C22"/>
     </linearGradient>
 
     <linearGradient id="statCardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0D1A3C"/>
-      <stop offset="100%" stop-color="#081024"/>
+      <stop offset="0%" stop-color="#0E1E46"/>
+      <stop offset="100%" stop-color="#09122C"/>
     </linearGradient>
 
     <filter id="bigGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -101,19 +95,19 @@
   <rect y="4" width="1600" height="36" fill="#04091A"/>
   <line x1="0" y1="40" x2="1600" y2="40" stroke="#1A274E" stroke-width="1"/>
 
-  <text x="800" y="27" text-anchor="middle" font-family="'Libre Baskerville', Georgia, serif" font-size="12" font-style="italic" fill="#FF8C00" letter-spacing="3" fill-opacity="0.8">
+  <text x="800" y="27" text-anchor="middle" font-family="'Libre Baskerville', Georgia, serif" font-size="12" font-style="italic" fill="#FF8C00" letter-spacing="3" fill-opacity="0.85">
     ✦ FULL-STACK ARCHITECTURE  ✦ AUTONOMOUS MULTI-AGENTS  ✦ 2000+ DSA SOLVED  ✦ 9.38 CGPA  ✦ MAESTRO YOUTUBE AUTOMATION  ✦ PRODUCTION VELOCITY ✦
   </text>
 
   <!-- CENTER DIVIDER (SPACIOUS DUAL COMPOSITION) -->
-  <line x1="790" y1="56" x2="790" y2="560" stroke="url(#centerDivider)" stroke-width="1.2"/>
+  <line x1="786" y1="56" x2="786" y2="560" stroke="url(#centerDivider)" stroke-width="1.2"/>
 
   <!-- ========================================================================= -->
   <!-- PART 1: EXECUTIVE CANDIDATE IDENTITY & VALUE PROPOSITION (LEFT HALF)       -->
   <!-- ========================================================================= -->
   <g transform="translate(64 0)">
     <!-- Top Status Badge -->
-    <g transform="translate(0 68)">
+    <g transform="translate(0 66)">
       <rect width="320" height="28" rx="14" fill="#081432" stroke="#FF8C00" stroke-opacity="0.45" stroke-width="1.1"/>
       <circle cx="16" cy="14" r="4" fill="#34D399" class="pulseBadge"/>
       <text x="28" y="18" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#34D399" letter-spacing="1.2">OPEN FOR HIGH-IMPACT ROLES</text>
@@ -121,73 +115,58 @@
     </g>
 
     <!-- Candidate Main Title -->
-    <text x="0" y="174" fill="#F8FAFC" font-size="76" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" letter-spacing="-1">Cheerla</text>
-    <text x="0" y="254" fill="url(#fireText)" font-size="84" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" letter-spacing="-2" filter="url(#fireGlow)">Shamith</text>
+    <text x="0" y="172" fill="#F8FAFC" font-size="76" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" letter-spacing="-1">Cheerla</text>
+    <text x="0" y="252" fill="url(#fireText)" font-size="84" font-weight="700" font-family="'Libre Baskerville', Georgia, serif" letter-spacing="-2" filter="url(#fireGlow)">Shamith</text>
 
     <!-- Role Divider & Subtitle -->
-    <rect x="0" y="274" width="480" height="2" fill="url(#goldAccent)" opacity="0.6"/>
-    <text x="0" y="306" fill="#FFD700" font-size="18" font-weight="700" font-family="'Libre Baskerville', Georgia, serif">
+    <rect x="0" y="272" width="480" height="2" fill="url(#goldAccent)" opacity="0.6"/>
+    <text x="0" y="304" fill="#FFD700" font-size="18.5" font-weight="700" font-family="'Libre Baskerville', Georgia, serif">
       Full-Stack Developer &amp; AI Agent Systems Engineer
     </text>
 
     <!-- Executive Value Statement -->
-    <text x="0" y="338" fill="#CBD5E1" font-size="14.5" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">
+    <text x="0" y="336" fill="#CBD5E1" font-size="15" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">
       Engineering high-throughput full-stack platforms and autonomous
     </text>
-    <text x="0" y="360" fill="#CBD5E1" font-size="14.5" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">
+    <text x="0" y="358" fill="#CBD5E1" font-size="15" font-family="'Libre Baskerville', Georgia, serif" font-style="italic">
       multi-agent workflows with algorithmic precision and production speed.
     </text>
 
     <!-- Key Credential Chips -->
-    <g transform="translate(0 388)">
+    <g transform="translate(0 384)">
       <!-- Chip 1: CGPA -->
-      <rect x="0" y="0" width="138" height="30" rx="15" fill="#0A1634" stroke="#FFD700" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="14" y="19.5" font-family="'Libre Baskerville', Georgia, serif" font-size="12" font-weight="700" fill="#FFD700">🎓 9.38 CGPA</text>
+      <rect x="0" y="0" width="138" height="32" rx="16" fill="#0A1634" stroke="#FFD700" stroke-opacity="0.45" stroke-width="1.1"/>
+      <text x="14" y="21" font-family="'Libre Baskerville', Georgia, serif" font-size="12.5" font-weight="700" fill="#FFD700">🎓 9.38 CGPA</text>
 
       <!-- Chip 2: Problems Solved -->
-      <rect x="148" y="0" width="152" height="30" rx="15" fill="#0A1634" stroke="#FF8C00" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="162" y="19.5" font-family="'Libre Baskerville', Georgia, serif" font-size="12" font-weight="700" fill="#FF8C00">⚡ 2000+ Solved</text>
+      <rect x="148" y="0" width="156" height="32" rx="16" fill="#0A1634" stroke="#FF8C00" stroke-opacity="0.45" stroke-width="1.1"/>
+      <text x="162" y="21" font-family="'Libre Baskerville', Georgia, serif" font-size="12.5" font-weight="700" fill="#FF8C00">⚡ 2000+ Solved</text>
 
       <!-- Chip 3: AI Agents -->
-      <rect x="310" y="0" width="170" height="30" rx="15" fill="#0A1634" stroke="#4A6FA5" stroke-opacity="0.55" stroke-width="1"/>
-      <text x="324" y="19.5" font-family="'Libre Baskerville', Georgia, serif" font-size="12" font-weight="700" fill="#93C5FD">🤖 Multi-Agents</text>
+      <rect x="314" y="0" width="170" height="32" rx="16" fill="#0A1634" stroke="#4A6FA5" stroke-opacity="0.55" stroke-width="1.1"/>
+      <text x="328" y="21" font-family="'Libre Baskerville', Georgia, serif" font-size="12.5" font-weight="700" fill="#93C5FD">🤖 Multi-Agents</text>
 
       <!-- Chip 4: Flagship -->
-      <rect x="490" y="0" width="174" height="30" rx="15" fill="#0A1634" stroke="#FF4500" stroke-opacity="0.45" stroke-width="1"/>
-      <text x="504" y="19.5" font-family="'Libre Baskerville', Georgia, serif" font-size="12" font-weight="700" fill="#F87171">🚀 MAESTRO Live</text>
+      <rect x="494" y="0" width="178" height="32" rx="16" fill="#0A1634" stroke="#FF4500" stroke-opacity="0.45" stroke-width="1.1"/>
+      <text x="508" y="21" font-family="'Libre Baskerville', Georgia, serif" font-size="12.5" font-weight="700" fill="#F87171">🚀 MAESTRO Live</text>
     </g>
 
-    <!-- Connect / Direct Contact Action Buttons -->
-    <g transform="translate(0 444)">
-      <text x="0" y="18" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#64748B" letter-spacing="1.5">CONNECT:</text>
-
-      <!-- Email Button -->
-      <g transform="translate(82 0)">
-        <rect width="92" height="28" rx="14" fill="#0A1430" stroke="#FF4500" stroke-opacity="0.45"/>
-        <text x="16" y="18" font-family="'Libre Baskerville', Georgia, serif" font-size="12" fill="#FF8C00">✉ Email</text>
-      </g>
-      <!-- LinkedIn Button -->
-      <g transform="translate(184 0)">
-        <rect width="104" height="28" rx="14" fill="#0A1430" stroke="#0A66C2" stroke-opacity="0.55"/>
-        <text x="16" y="18" font-family="'Libre Baskerville', Georgia, serif" font-size="12" fill="#60A5FA">💼 LinkedIn</text>
-      </g>
-      <!-- GitHub Button -->
-      <g transform="translate(298 0)">
-        <rect width="98" height="28" rx="14" fill="#0A1430" stroke="#FFD700" stroke-opacity="0.45"/>
-        <text x="16" y="18" font-family="'Libre Baskerville', Georgia, serif" font-size="12" fill="#FFD700">🐙 GitHub</text>
-      </g>
-      <!-- YouTube Button -->
-      <g transform="translate(406 0)">
-        <rect width="106" height="28" rx="14" fill="#0A1430" stroke="#EF4444" stroke-opacity="0.45"/>
-        <text x="16" y="18" font-family="'Libre Baskerville', Georgia, serif" font-size="12" fill="#F87171">▶ YouTube</text>
-      </g>
+    <!-- Executive Tagline Card (Replaces non-working connect buttons) -->
+    <g transform="translate(0 436)">
+      <rect width="672" height="66" rx="14" fill="#081432" stroke="url(#goldAccent)" stroke-opacity="0.45" stroke-width="1.2"/>
+      <text x="24" y="30" font-family="'Libre Baskerville', Georgia, serif" font-size="15" font-style="italic" fill="#F8FAFC">
+        “Architecting scalable full-stack platforms &amp; autonomous agentic systems
+      </text>
+      <text x="24" y="52" font-family="'Libre Baskerville', Georgia, serif" font-size="13.5" font-weight="700" fill="#FFD700" letter-spacing="0.4">
+        with algorithmic precision, deep technical ownership, and production velocity.”
+      </text>
     </g>
 
-    <!-- Bottom Verification Quote -->
-    <g transform="translate(0 514)">
-      <circle cx="5" cy="0" r="3.5" fill="#34D399" class="pulseBadge"/>
-      <text x="18" y="4" font-family="'Fira Code', monospace" font-size="11.5" fill="#94A3B8">
-        Full-Stack · Agentic Pipelines · Algorithmic Rigor · Ready to deploy
+    <!-- Bottom Tech Focus Breadcrumb -->
+    <g transform="translate(0 528)">
+      <circle cx="6" cy="0" r="4" fill="#34D399" class="pulseBadge"/>
+      <text x="20" y="4.5" font-family="'Fira Code', monospace" font-size="12.5" font-weight="600" fill="#94A3B8">
+        Full-Stack Systems  ·  Autonomous AI  ·  Competitive Problem Solving
       </text>
     </g>
   </g>
@@ -195,85 +174,82 @@
   <!-- ========================================================================= -->
   <!-- PART 2: PROOF ENGINE & SYSTEM ARCHITECTURE CARD (RIGHT HALF)              -->
   <!-- ========================================================================= -->
-  <g transform="translate(826 56)" filter="url(#cardShadow)">
+  <g transform="translate(814 54)" filter="url(#cardShadow)">
     <!-- Master IDE Card Shell -->
-    <rect width="710" height="494" rx="20" fill="url(#cardBg)" stroke="url(#cardFrame)" stroke-width="1.4" class="glowBorder"/>
+    <rect width="726" height="498" rx="20" fill="url(#cardBg)" stroke="url(#cardFrame)" stroke-width="1.5" class="glowBorder"/>
 
     <!-- Title Bar -->
-    <rect width="710" height="42" rx="20" fill="#070E24"/>
-    <rect y="20" width="710" height="22" fill="#070E24"/>
-    <line x1="0" y1="42" x2="710" y2="42" stroke="#1A284E" stroke-width="1.2"/>
+    <rect width="726" height="44" rx="20" fill="#070E24"/>
+    <rect y="22" width="726" height="22" fill="#070E24"/>
+    <line x1="0" y1="44" x2="726" y2="44" stroke="#1E2D56" stroke-width="1.2"/>
 
     <!-- Window Dots -->
-    <circle cx="24" cy="21" r="6" fill="#FF5F56"/>
-    <circle cx="44" cy="21" r="6" fill="#FFBD2E"/>
-    <circle cx="64" cy="21" r="6" fill="#27C93F"/>
+    <circle cx="24" cy="22" r="6" fill="#FF5F56"/>
+    <circle cx="44" cy="22" r="6" fill="#FFBD2E"/>
+    <circle cx="64" cy="22" r="6" fill="#27C93F"/>
 
     <!-- Active Tab -->
-    <path d="M92 42 L102 14 H300 L310 42 Z" fill="#0D1A3E"/>
-    <line x1="102" y1="14" x2="300" y2="14" stroke="#FF8C00" stroke-width="2"/>
-    <text x="122" y="28" font-family="'Fira Code', monospace" font-size="12" font-weight="600" fill="#F8FAFC">candidate.profile.ts</text>
-    <circle cx="288" cy="24" r="3" fill="#34D399"/>
+    <path d="M92 44 L102 14 H320 L330 44 Z" fill="#0E1D48"/>
+    <line x1="102" y1="14" x2="320" y2="14" stroke="#FF8C00" stroke-width="2.2"/>
+    <text x="126" y="29" font-family="'Fira Code', monospace" font-size="13" font-weight="600" fill="#F8FAFC">candidate.profile.ts</text>
+    <circle cx="308" cy="24" r="3.5" fill="#34D399"/>
 
     <!-- Header Live Metrics Chip -->
-    <rect x="520" y="10" width="170" height="22" rx="11" fill="#060C1C" stroke="#34D399" stroke-opacity="0.35"/>
-    <circle cx="534" cy="21" r="3.5" fill="#34D399" class="pulseBadge"/>
-    <text x="546" y="25" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#34D399">TS 5.4 · OLLAMA 4ms</text>
+    <rect x="526" y="10" width="182" height="24" rx="12" fill="#060C1C" stroke="#34D399" stroke-opacity="0.45"/>
+    <circle cx="542" cy="22" r="3.5" fill="#34D399" class="pulseBadge"/>
+    <text x="554" y="26.5" font-family="'Fira Code', monospace" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="0.5">TS 5.4 · OLLAMA 4ms</text>
 
-    <!-- Code Editor Content -->
-    <g font-family="'Fira Code', monospace" font-size="13" transform="translate(32 72)">
-      <text y="0" fill="#64748B">// ⚡ Executive Engineering &amp; Candidate Specifications</text>
+    <!-- Code Editor Content (High Contrast, Bold, Super Readable without Zoom) -->
+    <g font-family="'Fira Code', monospace" font-size="16.5" font-weight="500" transform="translate(30 76)">
+      <text y="0" fill="#93C5FD" font-weight="600">// ⚡ Elite Engineering Profile &amp; Specifications</text>
       
-      <text y="24" fill="#F472B6">export const <tspan fill="#60A5FA">candidate</tspan>: <tspan fill="#FBBF24">TopCandidate</tspan> = {</text>
-      <text y="48" fill="#E2E8F0">  name: <tspan fill="#FFD700">"Cheerla Shamith"</tspan>,</text>
-      <text y="72" fill="#E2E8F0">  roles: [<tspan fill="#FCD34D">"Full-Stack Architect"</tspan>, <tspan fill="#FCD34D">"Autonomous AI Engineer"</tspan>],</text>
-      <text y="96" fill="#E2E8F0">  academic_rank: { gpa: <tspan fill="#FF8C00">9.38</tspan>, degree: <tspan fill="#FCD34D">"B.Tech CSE"</tspan> },</text>
-      <text y="120" fill="#E2E8F0">  algorithmic_dsa: { solved: <tspan fill="#FF8C00">2000+</tspan>, status: <tspan fill="#34D399">"Verified Solver"</tspan> },</text>
-      <text y="144" fill="#E2E8F0">  production_stack: {</text>
-      <text y="168" fill="#E2E8F0">    web: [<tspan fill="#38BDF8">"React.js"</tspan>, <tspan fill="#38BDF8">"Node.js"</tspan>, <tspan fill="#38BDF8">"Express"</tspan>, <tspan fill="#38BDF8">"MongoDB"</tspan>],</text>
-      <text y="192" fill="#E2E8F0">    agentic_ai: [<tspan fill="#FF8C00">"Ollama Local LLMs"</tspan>, <tspan fill="#FF8C00">"Multi-Agent Pipelines"</tspan>]</text>
-      <text y="216" fill="#E2E8F0">  },</text>
-      <text y="240" fill="#E2E8F0">  flagship_project: <tspan fill="#FFD700">"MAESTRO — Autonomous YouTube System"</tspan>,</text>
-      <text y="264" fill="#E2E8F0">  hiring_verdict: <tspan fill="#34D399">"Immediate High-Impact Contributor"</tspan></text>
-      <text y="288" fill="#F472B6">};</text>
+      <text y="28" fill="#F472B6" font-weight="600">export const <tspan fill="#38BDF8">candidate</tspan>: <tspan fill="#FBBF24">TopCandidate</tspan> = {</text>
+      <text y="56" fill="#F8FAFC">  name: <tspan fill="#FFD700" font-weight="600">"Cheerla Shamith"</tspan>,</text>
+      <text y="84" fill="#F8FAFC">  roles: [<tspan fill="#FCD34D">"Full-Stack Architect"</tspan>, <tspan fill="#FCD34D">"AI Agent Engineer"</tspan>],</text>
+      <text y="112" fill="#F8FAFC">  stack: [<tspan fill="#38BDF8">"React.js"</tspan>, <tspan fill="#38BDF8">"Node.js"</tspan>, <tspan fill="#38BDF8">"Express"</tspan>, <tspan fill="#38BDF8">"MongoDB"</tspan>],</text>
+      <text y="140" fill="#F8FAFC">  agentic_ai: [<tspan fill="#FF8C00">"Ollama Local LLMs"</tspan>, <tspan fill="#FF8C00">"Multi-Agent Pipelines"</tspan>],</text>
+      <text y="168" fill="#F8FAFC">  flagship_project: <tspan fill="#FFD700" font-weight="600">"MAESTRO — Autonomous YouTube System"</tspan>,</text>
+      <text y="196" fill="#F8FAFC">  hiring_verdict: <tspan fill="#34D399" font-weight="700">"Immediate High-Impact Contributor"</tspan></text>
+      <text y="224" fill="#F472B6" font-weight="600">};</text>
     </g>
 
-    <!-- TRIPLE STAT PROOF METRIC CARDS -->
-    <g transform="translate(24 380)">
+    <!-- Code & Proof Divider Line -->
+    <line x1="28" y1="326" x2="698" y2="326" stroke="#1E2E5A" stroke-width="1.2"/>
+
+    <!-- TRIPLE STAT PROOF METRIC CARDS (Expanded, High-Contrast & Prominent) -->
+    <g transform="translate(26 346)">
       <!-- Proof 1: 2000+ DSA -->
       <g transform="translate(0 0)">
-        <rect width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#FF8C00" stroke-opacity="0.35" stroke-width="1.1"/>
-        <text x="16" y="24" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#FF8C00" letter-spacing="1">PROBLEM SOLVER</text>
-        <text x="16" y="52" font-family="'Libre Baskerville', Georgia, serif" font-size="24" font-weight="700" fill="#FFD700">2000+</text>
-        <text x="100" y="50" font-family="'Fira Code', monospace" font-size="10.5" fill="#94A3B8">DSA Problems</text>
+        <rect width="216" height="90" rx="14" fill="url(#statCardBg)" stroke="#FF8C00" stroke-opacity="0.45" stroke-width="1.2"/>
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#FF8C00" letter-spacing="1">⚡ PROBLEM SOLVER</text>
+        <text x="18" y="60" font-family="'Libre Baskerville', Georgia, serif" font-size="32" font-weight="700" fill="#FFD700">2000+</text>
+        <text x="18" y="78" font-family="'Fira Code', monospace" font-size="12" font-weight="600" fill="#CBD5E1">DSA Solved · Ranked</text>
       </g>
 
       <!-- Proof 2: 9.38 CGPA -->
-      <g transform="translate(226 0)">
-        <rect width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#FFD700" stroke-opacity="0.35" stroke-width="1.1"/>
-        <text x="16" y="24" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#FFD700" letter-spacing="1">ACADEMIC HONORS</text>
-        <text x="16" y="52" font-family="'Libre Baskerville', Georgia, serif" font-size="24" font-weight="700" fill="#FF8C00">9.38</text>
-        <text x="80" y="50" font-family="'Fira Code', monospace" font-size="10.5" fill="#94A3B8">CGPA (CSE)</text>
+      <g transform="translate(228 0)">
+        <rect width="216" height="90" rx="14" fill="url(#statCardBg)" stroke="#FFD700" stroke-opacity="0.45" stroke-width="1.2"/>
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#FFD700" letter-spacing="1">🎓 ACADEMIC HONORS</text>
+        <text x="18" y="60" font-family="'Libre Baskerville', Georgia, serif" font-size="32" font-weight="700" fill="#FF8C00">9.38</text>
+        <text x="18" y="78" font-family="'Fira Code', monospace" font-size="12" font-weight="600" fill="#CBD5E1">CGPA · B.Tech CSE</text>
       </g>
 
       <!-- Proof 3: MAESTRO System -->
-      <g transform="translate(452 0)">
-        <rect width="210" height="66" rx="12" fill="url(#statCardBg)" stroke="#34D399" stroke-opacity="0.35" stroke-width="1.1"/>
-        <text x="16" y="24" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#34D399" letter-spacing="1">FLAGSHIP AI</text>
-        <text x="16" y="52" font-family="'Libre Baskerville', Georgia, serif" font-size="18" font-weight="700" fill="#F8FAFC">MAESTRO</text>
-        <text x="114" y="50" font-family="'Fira Code', monospace" font-size="10.5" fill="#34D399">● Live</text>
+      <g transform="translate(456 0)">
+        <rect width="216" height="90" rx="14" fill="url(#statCardBg)" stroke="#34D399" stroke-opacity="0.45" stroke-width="1.2"/>
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#34D399" letter-spacing="1">🤖 FLAGSHIP SYSTEM</text>
+        <text x="18" y="58" font-family="'Libre Baskerville', Georgia, serif" font-size="25" font-weight="700" fill="#F8FAFC">MAESTRO</text>
+        <text x="18" y="78" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#34D399">● Autonomous Live AI</text>
       </g>
     </g>
 
-    <!-- Bottom Status Bar -->
-    <rect y="462" width="710" height="32" rx="0" fill="#070D1E"/>
-    <rect y="474" width="710" height="20" rx="20" fill="#070D1E"/>
-    <line x1="0" y1="462" x2="710" y2="462" stroke="#FF8C00" stroke-opacity="0.3" stroke-width="1"/>
-
-    <text x="24" y="482" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#FFD700">main*  0 errors, 0 warnings</text>
-    <text x="686" y="482" text-anchor="end" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#34D399">
-      ✔ PRODUCTION GRADE · READY TO SHIP 🚀
-    </text>
+    <!-- IDE Card Clean Bottom Status Line (No "production grade ready to ship") -->
+    <g transform="translate(28 472)">
+      <circle cx="4" cy="0" r="3.5" fill="#38BDF8"/>
+      <text x="16" y="4" font-family="'Fira Code', monospace" font-size="12" font-weight="600" fill="#7DD3FC">
+        main* · 0 errors, 0 warnings · TypeScript 5.4 verified
+      </text>
+    </g>
   </g>
 
   <!-- BOTTOM ACCENT LINE -->
