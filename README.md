@@ -215,6 +215,10 @@ mindset: "Build useful things. Ship with velocity. Make them unforgettable."
 
 **Autonomous YouTube Automation System**
 
+<p align="center">
+  <img src="./assets/maestro.png" alt="MAESTRO - AI-Powered YouTube Automation System" width="100%" />
+</p>
+
 An end-to-end multi-agent pipeline designed to automate high-quality content creation:
 - 🤖 **Multi-Agent Architecture**: Dedicated Planner, Scriptwriter, and Video Assembly agents
 - 🧠 **Local LLM Intelligence**: Powered by Ollama for offline, zero-latency execution
